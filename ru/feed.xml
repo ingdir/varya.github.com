@@ -1,0 +1,1523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[var ya; stepanova]]></title>
+        <description><![CDATA[Front end developer, blogger and cats lover.]]></description>
+        <link>http://varya.me/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 09 Jun 2014 09:00:57 GMT</lastBuildDate>
+        <atom:link href="http://varya.me//ru/feed.xml" rel="self" type="application/rss+xml"/>
+        <author><![CDATA[Varya Stepanova]]></author>
+        <pubDate>Mon, 09 Jun 2014 09:00:40 GMT</pubDate>
+        <item>
+            <title><![CDATA[Мобильное приложение на HTML5 со штатным интерфейсом]]></title>
+            <description><![CDATA[<p>Недавно я побывала на конференции <a href="http://2014.front-trends.com/">Front Trends 2014</a>
+в Варшаве. Конференция очень крутая, обязательно посетите её в следующем году.
+У них всегда интересная основная программа, и кроме неё есть ещё
+мини-доклады от всех желающих. В этом году одним из таких докладов был мой,
+о фреймворке и инструментах для разработки HTML5/JavaScript мобильных
+приложений <a href="http://www.appgyver.com/steroids">Steroids</a>.
+Если вы не были на конференции, то можете прочесть мою презентацию в тексте.</p>
+<excerpt/>
+
+<div class="slide">
+  <iframe class="slide__frame"
+    src="http://varya.me/start-with-steroids/?full#Cover">
+  </iframe>
+</div>
+
+<p>Я совсем новичок в разработке мобильных приложений, но всё равно решилась
+показать, как пользоваться Steroids, потому что благодаря ему я смогла сделать
+приложение с системным интерфейсом (native UI) и безболезненно пройти через
+весь цикл разработки за считанные минуты.</p>
+<div class="slide">
+  <iframe class="slide__frame"
+    src="http://varya.me/start-with-steroids/?full#summary">
+  </iframe>
+</div>
+
+<p>Инструменты Steroids — это пакет с command line интерфейсом. Вместе с ним вы получите
+JavaScript-фреймворк Steroids. А также инструменты обеспечат вам сборку проекта,
+удобный процесс разработки, отладки и релиза. Всё написано под NodeJS, так что
+потребуется его установить.</p>
+<div class="slide">
+  <iframe class="slide__frame"
+    src="http://varya.me/start-with-steroids/?full#3">
+  </iframe>
+</div>
+
+<p>Нужна версия <code>0.10.25</code>. В инструкции <a href="http://academy.appgyver.com/categories/1/contents/1">Installation and Setup
+Guide</a>
+подробно написано, как устанавливать.</p>
+<div class="slide">
+  <iframe class="slide__frame"
+    src="http://varya.me/start-with-steroids/?full#4">
+  </iframe>
+</div>
+
+<p>Самая первая команда, которой вы воспользуетесь, — это <code>steroids create</code>.
+Затем, в получившейся папке проекта наберите <code>steroids connect --watch</code> —
+запустится процесс steroids. Флаг <code>--watch</code> нужен, чтобы Steroids отслеживал
+изменения файлов и каждый раз пересобирал проект и обновлял его на подключенных
+устройствах.</p>
+<p>Вы можете подключить к проекту реальный телефон. После запуска <code>steroids connect</code>
+откроется окно браузера с QR-кодом. Считайте этот QR-код мобильным приложением
+<code>AppGyver Scanner</code> — и проект окажется в вашем телефоне (а кроме того — будет
+обновляться).</p>
+<div style="text-align:center;">
+<a href="https://itunes.apple.com/us/app/appgyver-scanner/id575076515?mt=8"
+target="_blank"><img alt="Appstore" class="appstore_icon"
+src="https://share.appgyver.com/assets/appstore-df950585b54bd081a7826913fc715cd4.png"></a>
+<a href="https://play.google.com/store/apps/details?id=com.appgyver.android&amp;feature=nav_result#?t=W251bGwsMSwxLDMsImNvbS5hcHBneXZlci5hbmRyb2lkIl0."
+target="_blank"><img alt="Googleplay" class="appstore_icon"
+src="https://share.appgyver.com/assets/googleplay-2cef882d62e402fbdbfe8cdac5794069.png"></a>
+</div>
+
+<p>Другой способ — открыть проект в Simulator. Для этого наберите <code>simulator</code>
+в окне терминала, где запускали <code>steroids connect</code>.</p>
+<p>Теперь можете изменить исходный код приложения. Например, напишите
+свой текст в файле <code>www/index.html</code>. После этого можете проверить,
+что приложение в подключенном телефоне или в симуляторе изменилось.</p>
+<p>Научиться, как сделать более серьезные изменения в проекте, вы
+можете из примеров и туториалов. Запустите <code>steroids generate</code>, и
+получите нужный код.</p>
+<div class="slide">
+  <iframe class="slide__frame"
+    src="http://varya.me/start-with-steroids/?full#5">
+  </iframe>
+</div>
+
+<p>Можете смотреть, как устроены эти примеры, учиться по
+<a href="http://academy.appgyver.com/">туториалам</a> и
+<a href="http://docs.appgyver.com/en/stable/index.html">API документации</a>.
+Дальше я покажу как использовать в вашем приложении
+некоторые штатные элементы интерфейса, то есть
+писать на HTML5/JavaScript приложение с <em>native UI</em>.</p>
+<div class="slide">
+  <iframe class="slide__frame"
+    src="http://varya.me/start-with-steroids/?full#examples-list">
+  </iframe>
+</div>
+
+<p>Давайте начнем с табов.</p>
+<div class="slide">
+  <iframe class="slide__frame"
+    src="http://varya.me/start-with-steroids/?full#7">
+  </iframe>
+</div>
+
+<p>Вы можете найти закомментированный пример использования
+табов в файле <code>config/application.coffee</code>. Это список табов
+с их иконками и ссылками, на которые они ведут.</p>
+<p>В моём приложении я создаю 3 таба для следующих страниц:</p>
+<ul>
+<li>index.html</li>
+<li>notificationExample.html</li>
+<li>knowledge.html</li>
+</ul>
+<pre class="highlight"><code class="hljs coffeescript">steroids.config.tabBar.enabled = <span class="hljs-literal">true</span>
+steroids.config.tabBar.tabs = [
+  {
+    <span class="hljs-attribute">title</span>: <span class="hljs-string">"Index"</span>
+    <span class="hljs-attribute">icon</span>: <span class="hljs-string">"icons/pill@2x.png"</span>
+    <span class="hljs-attribute">location</span>: <span class="hljs-string">"http://localhost/index.html"</span>
+  },
+  {
+    <span class="hljs-attribute">title</span>: <span class="hljs-string">"Notifications"</span>
+    <span class="hljs-attribute">icon</span>: <span class="hljs-string">"icons/bell.png"</span>
+    <span class="hljs-attribute">location</span>: <span class="hljs-string">"http://localhost/notificationExample.html"</span>
+  },
+  {
+    <span class="hljs-attribute">title</span>: <span class="hljs-string">"Knowledge base"</span>
+    <span class="hljs-attribute">icon</span>: <span class="hljs-string">"icons/coding.png"</span>
+    <span class="hljs-attribute">location</span>: <span class="hljs-string">"http://localhost/knowledge.html"</span>
+  }
+]
+</code></pre>
+<p>Положите html-файлы этих страниц в папку <code>www</code>. Пока они могут
+быть пустыми. Также не забудьте об иконках, можете взять из моего
+репозитория всю папку <a href="https://github.com/varya/steroids-fronttrends2014/tree/master/www/icons">icon
+folder</a>.</p>
+<p>После того как все изменения будут сделаны, подождите пересборки и
+убедитесь в результате.</p>
+<div style="text-align:center;">
+<img src="http://img-fotki.yandex.ru/get/9088/14441195.32/0_84262_ae854cb8_orig.png" width="340" height="89" border="0" title="" alt=""/>
+</div>
+
+<p>Дальше можно поиграть с нотификациями.</p>
+<div class="slide">
+  <iframe class="slide__frame"
+    src="http://varya.me/start-with-steroids/?full#8">
+  </iframe>
+</div>
+
+<p>Разместите код этих кнопок внутри тега <code>&lt;body&gt;</code> на странице
+<code>www/notificationExample.html</code>.</p>
+<pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">button
+</span>  <span class="hljs-attribute">class</span>=<span class="hljs-value">"button button-block"</span>
+  <span class="hljs-attribute">ontouchend</span>=<span class="hljs-value">"showAlert()"</span>&gt;</span>Show alert dialogue<span class="hljs-tag">&lt;/<span class="hljs-title">button</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">button
+</span>  <span class="hljs-attribute">class</span>=<span class="hljs-value">"button button-block"</span>
+  <span class="hljs-attribute">ontouchend</span>=<span class="hljs-value">"showConfirm()"</span>&gt;</span>Show confirm dialogue<span class="hljs-tag">&lt;/<span class="hljs-title">button</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">button
+</span>  <span class="hljs-attribute">class</span>=<span class="hljs-value">"button button-block"</span>
+  <span class="hljs-attribute">ontouchend</span>=<span class="hljs-value">"showPrompt()"</span>&gt;</span>Show prompt dialogue<span class="hljs-tag">&lt;/<span class="hljs-title">button</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">button
+</span>  <span class="hljs-attribute">class</span>=<span class="hljs-value">"button button-block"</span>
+  <span class="hljs-attribute">ontouchend</span>=<span class="hljs-value">"vibrate()"</span>&gt;</span>Vibrate the device<span class="hljs-tag">&lt;/<span class="hljs-title">button</span>&gt;</span>
+</code></pre>
+<p>Кнопки реагируют на прикосновения пользователя и запускают
+различные JavaScript-функции. Чтобы сделать страницу работающей,
+нужно задать эти функции в <code>&lt;head&gt;</code> или <code>*.js</code> файле страницы.
+Каждая из них иллюстрирует работу своего вида нотификации, такого
+как:
+a kind of notification which are:</p>
+<ul>
+<li><code>navigator.notification.alert</code></li>
+<li><code>navigator.notification.confirm</code></li>
+<li><code>navigator.notification.prompt</code></li>
+<li><code>navigator.notification.vibrate</code></li>
+</ul>
+<p>Код функций можете взять
+<a href="https://github.com/varya/steroids-fronttrends2014/blob/master/www/notificationExample.html#L15">из моего репозитория</a>.</p>
+<p>Теперь вы можете перейти на эту страницу по соответствующему
+табу и увидеть, как работает каждый тип нотификации.</p>
+<p>Следующий системный элемент — кнопка на навигационной панели
+(navigation bar).</p>
+<div class="slide">
+  <iframe class="slide__frame"
+    src="http://varya.me/start-with-steroids/?full#9">
+  </iframe>
+</div>
+
+<p>Навигационная панель может быть изменена при помощи JavaScript-хелперов
+фреймворка Steroids. Если вы хотите сделать её одинаковой для всех страниц
+приложения, то разместите код в файле <code>www/javascripts/application.js</code>,
+который подключен ко всем <code>*.html</code> файлам.</p>
+<pre class="highlight"><code class="hljs javascript"><span class="hljs-keyword">var</span> loginButton = <span class="hljs-keyword">new</span> steroids.buttons.NavigationBarButton();
+loginButton.title = <span class="hljs-string">"the Button"</span>;
+
+loginButton.onTap = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> {</span>
+    navigator.notification.alert(
+        <span class="hljs-string">'You tapped the button!'</span>,
+        <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span>{</span>},
+        <span class="hljs-string">'the Alert'</span>,
+        <span class="hljs-string">'I did!'</span>
+    );
+}
+
+steroids.view.navigationBar.update({
+    buttons: {
+      right: [loginButton]
+    }
+})
+</code></pre>
+<p>Этот код вставит кнопку в правую часть навигационной панели.
+Касание кнопки запустит нотификацию, уже знакомую вам по предыдущему
+примеру.</p>
+<div style="text-align:center;">
+<img src="http://img-fotki.yandex.ru/get/9115/14441195.32/0_84264_7f27d435_L.png" width="282" height="500" border="0" title="" alt=""/>
+</div>
+
+<p>И последний пример штатного интерфейса в этом приложении
+— модальное окно.</p>
+<div class="slide">
+  <iframe class="slide__frame"
+    src="http://varya.me/start-with-steroids/?full#10">
+  </iframe>
+</div>
+
+<p>Разместите эту кнопку в файле <code>www/index.html</code>:</p>
+<pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">a
+</span>  <span class="hljs-attribute">class</span>=<span class="hljs-value">"button button-block"</span>
+  <span class="hljs-attribute">ontouchend</span>=<span class="hljs-value">"showModal()"</span>&gt;</span>Open modal<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+</code></pre>
+<p>И определите функцию <code>showModal</code>, которая открывает модальное
+окно с соответствующим содержанием.</p>
+<pre class="highlight"><code class="hljs javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">showModal</span><span class="hljs-params">()</span> {</span>
+  <span class="hljs-keyword">var</span> webView =
+    <span class="hljs-keyword">new</span> steroids.views.WebView(<span class="hljs-string">"/views/modalExample/show.html"</span>);
+  steroids.modal.show(webView);
+}
+</code></pre>
+<p>Что показывать в модальном окне, должно быть написано в файле
+<code>app/views/modalExample/show.html</code>. Кстати, не забудьте, что там
+должна быть кнопка закрывания модального окна. Чтобы всё прошло
+быстрее, позаимствуйте
+<a href="https://github.com/varya/steroids-fronttrends2014/blob/master/app/views/modalExample/show.html">код из репозитория приложения</a>.</p>
+<p>С этими и <a href="http://docs.appgyver.com/en/stable/steroids_Steroids%20Native%20UI_index.md.html#Steroids%C2%A0Native%C2%A0UI">другими элементами интерфейса</a>
+вы можете сделать приложение с системным интерфейсом, которое
+будет выглядеть натурально на том устройстве, на котором запускается
+приложение.</p>
+<p>Когда приложение закончено (или даже в процессе), вы можете захотеть
+показать его другу, клиенту или даже маме.</p>
+<div class="slide">
+  <iframe class="slide__frame"
+    src="http://varya.me/start-with-steroids/?full#sharing">
+  </iframe>
+</div>
+
+<p>Можно воспользоваться QR-кодом, упоминаемым в начале статьи. Он
+принесет код с вашего компьютера на любое устройство. Но вы оба должны
+быть подключены к одной сети.</p>
+<p>Если вы хотите показать приложение удаленно, разместите код в облаке.
+Для этого есть команда <code>steroids deploy</code>. В результате вы тоже получите
+страницу с QR-кодом. Его можно считать при помощи <code>AppGyver Scaner</code> и
+получить в своём телефоне приложение прямо из облака.</p>
+<p>Вы можете делиться всеми своими приложениями из облака. А также
+настраивать их и собирать релизы. Всё это делается через web-интерфейс
+<a href="https://cloud.appgyver.com/applications">cloud.appgyver.com</a>.</p>
+<p>Отсюда же приложения можно отправлять в AppStore и GooglePlay.</p>
+<div style="text-align:center;">
+<img src="http://img-fotki.yandex.ru/get/9062/14441195.32/0_84265_d03d686e_orig.png" width="500" height="327" border="0" title="" alt=""/>
+</div>
+
+<p>Видите, это просто. Настолько просто, что даже новичок может не только
+разработать приложение, но и сделать об этом презентацию с живым кодом
+на конференции.</p>
+<div class="slide">
+  <iframe class="slide__frame"
+    src="http://varya.me/start-with-steroids/?full#links">
+  </iframe>
+</div>
+
+<p>Узнать больше о Steroids и Cordova (в основе Steroids лежит PhoneGap)
+можно в <a href="http://academy.appgyver.com/">AppGyver Academy</a>. Там есть:</p>
+<ul>
+<li>подробные обучающие материалы,</li>
+<li>документация,</li>
+<li>сообщество разработчиков.</li>
+</ul>
+<p>И, конечно, вы можете читать <a href="/ru/posts">этот блог</a>. Я собираюсь
+делиться своими следующими открытиями относительно Steroids в ближайшее время :-)</p>
+]]></description>
+            <link>http://varya.me//ru/posts/html5-mobile-app-width-native-ui</link>
+            <guid isPermaLink="true">http://varya.me//ru/posts/html5-mobile-app-width-native-ui</guid>
+            <dc:creator><![CDATA[Varya Stepanova]]></dc:creator>
+            <pubDate>Wed, 28 May 2014 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Мобильное приложение на Steroids]]></title>
+            <description><![CDATA[<p>На днях я написала своё первое мобильное приложение. Суммарно это заняло всего
+пару часов, и всё благодаря фреймворку
+<a href="http://www.appgyver.com/steroids">Steroids</a> от AppGyver. С его помощью делать
+гибридные приложения (это когда HTML5/JavaScript внутри) очень легко, а
+инструменты <code>Steroids</code> позволяют легко деплоить приложение и делиться им с
+друзьями.<excerpt/></p>
+<h3 id="-">Легко посмотреть приложение</h3>
+<p>Приложение у меня пока &quot;игрушечное&quot; — это всего одна страница, где озвучены
+случайные числительные на финском языке.</p>
+<div style="text-align:center;">
+<img
+src="http://img-fotki.yandex.ru/get/9827/14441195.30/0_81ae7_60ff43b1_L.png"
+width="282" height="500" title="" alt="" border="0"/>
+</div>
+
+<p>Сейчас увидеть работающее приложение в телефоне можно только через <code>Appgyver
+Scaner</code> — вспомогательную программу для обмена Steroids-based мобильными
+приложениями до релиза. Поставьте сейчас, чтобы позже загрузить моё приложение:</p>
+<div style="text-align:center;">
+<a href="https://itunes.apple.com/us/app/appgyver-scanner/id575076515?mt=8"
+target="_blank"><img alt="Appstore" class="appstore_icon"
+src="https://share.appgyver.com/assets/appstore-df950585b54bd081a7826913fc715cd4.png"></a>
+<a href="https://play.google.com/store/apps/details?id=com.appgyver.android&amp;feature=nav_result#?t=W251bGwsMSwxLDMsImNvbS5hcHBneXZlci5hbmRyb2lkIl0."
+target="_blank"><img alt="Googleplay" class="appstore_icon"
+src="https://share.appgyver.com/assets/googleplay-2cef882d62e402fbdbfe8cdac5794069.png"></a>
+</div>
+
+<p>Теперь вы можете открыть в компьютере эту
+<a href="http://bit.ly/finnish-counting-001">страницу с QR-кодом</a>. Отсканируйте QR-код
+при помощи
+свежеустановленного AppGyver Scaner, и моё приложение загрузится к вам в
+телефон.</p>
+<p>Я сознательно не релизила пока приложение. Во-первых, оно ещё сырое. А
+во-вторых, хочу, чтобы вы увидели как легко поделиться готовящимся
+приложением с другими, причем на любом этапе разработки.</p>
+<h3 id="-dev-">Запустить dev-версию</h3>
+<p>Код приложения открытый, хостится на Github:
+<a href="https://github.com/varya/finnish-counting">varya/finnish-counting</a>. Чтобы
+развернуть проект у себя на машине, понадобится npm-пакет <code>steroids</code>:</p>
+<pre class="highlight"><code class="hljs cmake">npm <span class="hljs-keyword">install</span> steroids -g
+</code></pre><p>Если до этого npm-пакеты на машину не устанавливались, то придется пройти через
+все шаги <a href="http://academy.appgyver.com/categories/1/contents/1">инструкции по
+установке</a>.</p>
+<p>Затем нужно склонировать код проекта и установить зависимости:</p>
+<pre class="highlight"><code class="hljs lasso">git clone git@github<span class="hljs-built_in">.</span>com:varya/finnish<span class="hljs-attribute">-counting</span><span class="hljs-built_in">.</span>git <span class="hljs-attribute">-b</span> develop
+cd finnish<span class="hljs-attribute">-counting</span>
+npm install
+</code></pre><p>Для начала работы с проектом запускаем</p>
+<pre class="highlight"><code class="hljs brainfuck"><span class="hljs-comment">steroids</span> <span class="hljs-comment">connect</span> <span class="hljs-literal">-</span><span class="hljs-literal">-</span><span class="hljs-comment">watch</span>
+</code></pre><p>Ключ <code>--watch</code> нужен для отслеживания изменений и перезагрузки приложения.</p>
+<p>После запуска этой команды в браузере откроется страница с QR-кодом.
+Отсканировав QR-код всё тем же AppGyver Scaner, вы получите приложение прямо в
+телефоне. Только имейте в виду, что телефон и компьютер должны находиться в
+одной сети. При каждой редакции кода приложение будет обновляться – очень
+удобно, особенно если работаешь над внешним видом интерфейса.</p>
+<p>Если телефона под рукой нет, можно открыть приложение на макет в iOS simulator.
+Для этого в терминале с запущенным <code>steroids</code> нужно просто написать</p>
+<pre class="highlight"><code class="hljs undefined">simulator
+</code></pre><h3 id="-">Что писать?</h3>
+<p>Основной код приложения находится в
+<a href="https://github.com/varya/finnish-counting/blob/vesions/0.0.1/www/javascripts/application.js">www/application.js</a>.
+Оно ещё маленькое и не использует все возможности Steroids. Но уже очевидно, что
+когда страниц станет больше, мне понадобится <a href="http://docs.appgyver.com/en/edge/steroids_Steroids%20Native%20UI_index.md.html#Steroids%C2%A0Native%C2%A0UI">Steroids Native
+UI</a>.</p>
+<p>Другие возможности фреймворка такие как удобное обращение к камере, файловой
+системе телефона, нотификациям — хорошо задокументированы на страницах <a href="http://docs.appgyver.com/en/edge/index.html">API
+Docs</a>. Там же есть примеры
+использования <code>Cordova API</code> — именно с его помощью в моём приложении
+проигрывается звук.</p>
+<p>Новые приложения появляются каждый день, можно релизить и хвастаться в <a href="http://x.appgyver.com/xapps">AppGyver
+Apps Gallery</a>. Только успевай с идеями: я вот
+хотела написать мобильный аналог игры 2048, а он уже там есть. Значит, буду
+развивать свою «считалку» :-)</p>
+<p>Кстати, у кого есть телефон на Андроиде — проверьте, скачивается у вас моё
+приложение, работает ли? Я пока могу проверить только на iOS, а одно из
+преимуществ приложений на Steroids — то, что они кросс-платформенные, с
+нативными фичами для каждой платформы, конечно.</p>
+]]></description>
+            <link>http://varya.me//ru/issues/first-steroids-app</link>
+            <guid isPermaLink="true">http://varya.me//ru/issues/first-steroids-app</guid>
+            <dc:creator><![CDATA[Varya Stepanova]]></dc:creator>
+            <pubDate>Thu, 01 May 2014 20:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Локальная разработка и удаленный хостинг статики]]></title>
+            <description><![CDATA[<p>На прошлой неделе мне понадобилось сделать сайт, статика которого раздаётся с
+другого сервера. Это касалось всех статических файлов: как подключенных к HTML
+документу CSS и JavaScript, так и изображений и шрифтов, использованных уже в
+их коде.<excerpt/> Хотя очевидно, что все они эти ресурсы должны быть локальными во
+время разработки. То есть задача была придумать магию, которая знает, где будет
+размещена статика, и преобразовывает относительные пути в коде в абсолютные
+согласно этому знанию.</p>
+<p>Эту задачу я решила при помощи инструмента
+<a href="http://bem.info/tools/optimizers/borschik/">Borschik</a>. Борщик-сборщик, всем
+должно быть понятно. :-)</p>
+<center>
+<iframe src="//embed.gettyimages.com/embed/135591409?et=B_T3l-shrE-pr9-ELe_wJw&sig=5haG67PAzCxGourA96ZB7m9LwSket1v9PpvXEXNIkBM=" width="508" height="407" frameborder="0" scrolling="no"></iframe>
+</center>
+
+<p>Демо-проект с этим решением находится в репозитории
+<a href="https://github.com/varya/st-deliverer">varya/st-deliverer</a></p>
+<h3 id="-">Структура проекта</h3>
+<p>Как вы позже увидите, <code>borschik</code> можно гибко настроить. Так что возможна любая
+структура проекта. В моём проекте все хранится в директории
+<a href="b.com/varya/st-deliverer/tree/master/src">src</a>.
+После сборки получается HTML-файлы в папке
+<a href="https://github.com/varya/st-deliverer/tree/gh-pages/dist/html">dist/html</a>.
+Проверьте его код, и вы убедитесь, что статические файлы подключены с другого
+хоста по абсолютному пути.</p>
+<pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">title</span>&gt;</span>Deliver static assets with Borschik<span class="hljs-tag">&lt;/<span class="hljs-title">title</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">link
+</span>      <span class="hljs-attribute">rel</span>=<span class="hljs-value">"stylesheet"</span>
+      <span class="hljs-attribute">href</span>=<span class="hljs-value">"http://varya.github.io/stor.../styles.css"</span>/&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">body
+</span>    <span class="hljs-attribute">class</span>=<span class="hljs-value">"page"</span>
+    <span class="hljs-attribute">background</span>=<span class="hljs-value">"http://varya.github.io/stor.../grungy.jpg"</span>&gt;</span>
+  ...
+</code></pre>
+<p>Страничку можно <a href="http://varya.me/st-deliverer/dist/html/">открыть в браузере</a> и
+насладиться моим дизайном и прекрасным котиком.</p>
+<h3 id="borschik-">Borschik в вашем проекте</h3>
+<p>Borschik — это npm-пакет. Его можно установить глобально при помощи команды</p>
+<pre class="highlight"><code class="hljs bash">npm install -g borschik
+</code></pre>
+<p>Но лично я предпочитаю локальные зависимости, так что завожу в корне проекта
+файл
+<a href="https://github.com/varya/st-deliverer/blob/master/package.json">package.json</a>:</p>
+<pre class="highlight"><code class="hljs javascript">{
+  ...
+  <span class="hljs-string">"dependencies"</span>: {
+    <span class="hljs-string">"borschik"</span>: <span class="hljs-string">"0.4.2"</span>
+  },
+  ...
+}
+</code></pre>
+<h3 id="-">Настройка</h3>
+<p>Прежде чем начинать преобразования, нужно проинструктировать <code>borschik</code>, что
+преобразовывать и как. Для этого нужен конфигурационный файл
+<a href="https://github.com/varya/st-deliverer/blob/master/.borschik">.borschik</a>:</p>
+<pre class="highlight"><code class="hljs javascript">{
+  <span class="hljs-string">"paths"</span> : {
+    <span class="hljs-string">"src/img/"</span>: <span class="hljs-string">"http://varya.github.io/stor.../st-deliverer/img/"</span>,
+    <span class="hljs-string">"src/css/"</span>: <span class="hljs-string">"http://varya.github.io/stor.../st-deliverer/css/"</span>,
+    <span class="hljs-string">"src/font/"</span>: <span class="hljs-string">"http://varya.github.io/storage/fonts/"</span>
+
+  }
+}
+</code></pre>
+<p>Заметьте, для разных путей можно настроить разную замену. Здесь это видно на
+примере с фонами.</p>
+<h3 id="-">Запускаем!</h3>
+<p>Запустите <code>borschik</code> над файлом, содержащим ссылки на локальные статические
+ресурсы, и вы получите результат преобразования. Например,</p>
+<pre class="highlight"><code class="hljs bash">./node_modules/borschik/bin/borschik \
+  --input=src/css/styles.css
+</code></pre>
+<p>Чтобы использовать это в сборке, понадобится ещё один флаг <code>--output</code>,
+сообщающий куда записать получившееся.</p>
+<p><code>borschik</code> знаком с синтаксисом web-технологий. То есть &quot;ссылки&quot; размещенные в
+простом тексте останутся нетронутыми.</p>
+<h3 id="-">Система сборки</h3>
+<p>Теперь <code>borschik</code> можно включить в систему сборки проекта. В моём случае это
+небольшой
+<a href="https://github.com/varya/st-deliverer/blob/master/Makefile">Makefile</a>, спасибо
+<a href="https://github.com/alexeyten">@alexeyten</a> за 90% его содержания. :-) Но есть
+также и плагин для grunt <a href="https://github.com/megatolya/grunt-borschik">megatolya/grunt-borschik</a>.<br/>
+Конечно, <code>borschik</code> включен в системы сборки БЭМ-проектов
+<a href="http://bem.info/tools/bem/bem-tools/">bem-tools</a>
+и <a href="https://github.com/enb-make/enb">enb</a></p>
+<h3 id="-">Результат</h3>
+<p>Для закрепления <a href="http://varya.me/st-deliverer/dist/html/">проведайте котика ещё раз</a>.</p>
+<p>А узнать о многих других возможностях <code>borschik</code> можно из статьи
+<a href="http://ru.bem.info/articles/borschik/">http://ru.bem.info/articles/borschik/</a>.</p>
+]]></description>
+            <link>http://varya.me//ru/issues/borschik-static-assets</link>
+            <guid isPermaLink="true">http://varya.me//ru/issues/borschik-static-assets</guid>
+            <dc:creator><![CDATA[Varya Stepanova]]></dc:creator>
+            <pubDate>Fri, 11 Apr 2014 20:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[JavaScript в BEMJSON]]></title>
+            <description><![CDATA[<p>Обычно разработка страницы начинается с прототипирования интерфейса и затем
+продолжается созданием статической странички при помощи HTML/CSS и элементарного
+JavaScript. Если использууется полный стек БЭМ, переход от прототипирования к
+полноценному сайту происходит постепенно. Можно склонировать проект
+<a href="https://github.com/bem/project-stub">project-stub</a>
+и сделать статическую страницу, об этом уже опубликован
+<a href="http://bem.info/articles/start-with-project-stub/">туториал</a>.<excerpt/></p>
+<p>Благодаря <code>BEMHTML</code> вам не нужно писать весь HTML для страницы вручную. Описывая
+страницу в BEMJSON, вы экономите время, ведь не нужно писать каждый тег. Но в
+случае больших страниц этого мало.</p>
+<p>К счастью, в BEMJSON можно включать JavaScript, результатом которого будет
+описание блоков.
+Вот пример такой страницы:</p>
+<pre class="highlight"><code class="hljs javascript">({
+    block: <span class="hljs-string">'page'</span>,
+    ...
+    content:[
+        ...
+        {
+            block: <span class="hljs-string">'content'</span>,
+            content: (<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> {</span>
+                <span class="hljs-keyword">var</span> res = [];
+                <span class="hljs-keyword">for</span>(<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">10</span>; i++) {
+                    res.push({
+                        block: <span class="hljs-string">'button'</span>,
+                        content: <span class="hljs-string">'Button '</span> + (i + <span class="hljs-number">1</span>)
+                    });
+                }
+                <span class="hljs-keyword">return</span> res;
+            })()
+        },
+        ...
+    ]
+})
+</code></pre>
+<p><a href="https://github.com/varya/dynamic-bemjson/blob/master/desktop.bundles/page1/page1.bemjson.js">полный
+код</a></p>
+<p>Когда страница собирается при помощи <code>bem-tools</code>, этот JavaScript создает 10
+блоков <code>button</code>.
+Можете проверить <a href="http://varya.me/dynamic-bemjson/desktop.bundles/page1/page1.html">результирующую страницу</a>
+чтобы увидеть их.</p>
+<p>Ещё одним примером может служить блок <code>menu</code>. Такой интерфейсный компонент
+обычно состоит из множества повторяющихся пунктов с минимальными различиями.
+Получается копипаст, которого можно избежать, используя JavaScript в BEMJSON.</p>
+<pre class="highlight"><code class="hljs javascript">({
+    block: <span class="hljs-string">'page'</span>,
+    ...
+    content:[
+        ...
+        {
+            block: <span class="hljs-string">'menu'</span>,
+            content: [
+                {
+                    title: <span class="hljs-string">'Index'</span>,
+                    isSelected: <span class="hljs-literal">false</span>,
+                },
+                {
+                    title: <span class="hljs-string">'Products'</span>,
+                    isSelected: <span class="hljs-literal">true</span>
+                },
+                {
+                    title: <span class="hljs-string">'Contact'</span>,
+                    isSelected: <span class="hljs-literal">false</span>
+                }
+            ].map(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(item)</span>{</span>
+                <span class="hljs-keyword">var</span> block = {
+                    block: <span class="hljs-string">'menu'</span>,
+                    elem: <span class="hljs-string">'item'</span>,
+                    content: item.title,
+                    mods: {
+                        selected: item.isSelected
+                    }
+                };
+                <span class="hljs-keyword">return</span> block;
+            })
+        },
+        ...
+    ]
+})
+</code></pre>
+<p><a href="https://github.com/varya/dynamic-bemjson/blob/master/desktop.bundles/page2/page2.bemjson.js">full
+code</a></p>
+<p>В результате получается <a href="http://varya.me/dynamic-bemjson/desktop.bundles/page2/page2.html">страница с меню из 3х пунктов</a>.
+Чем больше массив с пунктами меню, тем больше пользы. Особенно если структура
+меню меняется в процессе разработки.</p>
+<p>Конечно, этой возможностью не придется пользоваться, если BEMJSON — это
+результат первого слоя шаблонов (таких как BEMTREE или priv.js) — там вы можете
+произвести столько BEMJSON, сколько требуется. Но на первом этапе разработки,
+когда делается статическая страница, трюки с JavaScript в BEMJSON помогут
+избежат копипаста.</p>
+]]></description>
+            <link>http://varya.me//ru/issues/javascript-in-bemjson</link>
+            <guid isPermaLink="true">http://varya.me//ru/issues/javascript-in-bemjson</guid>
+            <dc:creator><![CDATA[Varya Stepanova]]></dc:creator>
+            <pubDate>Thu, 20 Feb 2014 20:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Блоки как кирпичи и бандлы как дома]]></title>
+            <description><![CDATA[<p>Некотрое время назад мой знакомый, который делает проект на полном стеке БЭМ
+(BEM-CSS, i-bem.js и BEMHTML-шаблоны),
+задал мне несколько вопросов об использовании
+<a href="https://github.com/bem/project-stub/tree/14e24fd17ba66a357a2f6fcdce045065b4eb5d6c">BEM project
+stub</a>.
+Отвечая на вопрос, я пообещала опубликовать ответ в виде текста, потому что
+многие вещи вокруг БЭМ не проговариваются, считаясь слишком простыми — и
+ошибочно!<excerpt/></p>
+<p>Вопрос был о конфигурационном файле <code>.bem/make.js</code>, который нужен при
+использовании
+<a href="http://bem.info/tools/bem/bem-tools/">bem tools</a>
+для сборки страниц.
+<a href="https://github.com/bem/project-stub/blob/14e24fd17ba66a357a2f6fcdce045065b4eb5d6c/.bem/make.js#L12">Строчки 12 и
+13</a>
+описывают регулярные выражения для <code>blocks</code> и <code>bundles</code>. Не сразу понятно,
+что это значит.</p>
+<p>Вообще эти выражения нужны, чтобы распознать папки на файловой системе. Те,
+которые заканчиваются на <code>.blocks</code> — для блоков, а те, что заканчиваются на
+<code>.bundles</code> — для бандлов (страниц). Под эти выражения, например, подходят папки
+<code>desktop.blocks</code> и <code>desktop.bundles</code> из project-stub.</p>
+<p>Для чего нужна папка <code>desktop.blocks</code>, должно быть понятно. Поскольку БЭМ —
+модульный паттерн, необходимо место для хранения модулей, то есть блоков. Каждый
+блок — это директория, содержащая все файлы, нужные для каждого конкретного
+интерфейсного модуля.</p>
+<p>Вот, например, <a href="https://github.com/varya/online-shop-dummy/tree/master/desktop.blocks">набор блоков одного
+проекта</a>.</p>
+<p>Папка <code>desktop.bundles</code> нуждается в пояснении. Она содержит страницы – результат
+использования блоков. Каждая страница помещена в отдельную директорию, внутри
+которой располагаются все файлы, нужные для страницы.
+Можно снова посмотреть
+<a href="https://github.com/varya/online-shop-dummy/tree/gh-pages/desktop.bundles">пример из предыдущего
+проекта</a>.</p>
+<p>Разница в том, что файлы блоков созданы разработчиком, а файлы бандлов созданы
+bem tools. Для блоков это знакомые нам CSS, JavaScript и иногда шаблоны.</p>
+<pre class="highlight"><code class="hljs xml">├── desktop.blocks/
+│   ├── goods/
+│   │   ├── <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"https://github.com/varya/online-shop-dummy/blob/master/desktop.blocks/goods/goods.bemhtml"</span>&gt;</span>goods.bemhtml<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+│   │   ├── <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"https://github.com/varya/online-shop-dummy/blob/master/desktop.blocks/goods/goods.css"</span>&gt;</span>goods.css<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+│   │   ├── <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"https://github.com/varya/online-shop-dummy/blob/master/desktop.blocks/goods/goods.deps.js"</span>&gt;</span>goods.deps.js<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+│   │   └── <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"https://github.com/varya/online-shop-dummy/blob/master/desktop.blocks/goods/goods.ie.css"</span>&gt;</span>goods.ie.css<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span></code></pre>
+
+<p>Проводя параллели для БЭМ (и любого другого модульного паттерна) в реальном
+мире, можно сказать, что блок — это кирпичик.</p>
+<p><a href="img
+src=&quot;http://img-fotki.yandex.ru/get/6730/14441195.30/0_7e0f8_33c1c86c_L.jpg&quot;/">img
+src=&quot;http://img-fotki.yandex.ru/get/6730/14441195.30/0_7e0f8_33c1c86c_L.jpg&quot;/</a></p>
+<p>Файлы бандлов — это тоже файлы, нужные для браузера: CSS, JavaScript, HTML. <em>Ни
+один из них не написан разработчиком, они созданы bem tools</em>. Можете посмотреть
+внутрь файлов и убедиться, что код абсолютно &quot;роботный&quot;.</p>
+<pre class="highlight"><code class="hljs xml">├── desktop.bundles/
+│   ├── index/
+│   │   ├── <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"https://github.com/varya/online-shop-dummy/blob/gh-pages/desktop.bundles/index/_index.css"</span>&gt;</span>_index.css<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+│   │   ├── <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"https://github.com/varya/online-shop-dummy/blob/gh-pages/desktop.bundles/index/_index.js"</span>&gt;</span>_index.js<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+│   │   ├── <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"https://github.com/varya/online-shop-dummy/blob/gh-pages/desktop.bundles/index/index.bemjson.js"</span>&gt;</span>index.bemjson.js<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+│   │   └── <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"https://github.com/varya/online-shop-dummy/blob/gh-pages/desktop.bundles/index/index.html"</span>&gt;</span>index.html<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span></code></pre>
+
+
+<p>Для понимания bem tools представьте, что это строительный кран. Он берет
+строительные блоки и возводит из них дом.</p>
+<p><a href="img
+src=&quot;http://img-fotki.yandex.ru/get/9058/14441195.30/0_7e0f3_ff76f66a_L.jpg&quot;/">img
+src=&quot;http://img-fotki.yandex.ru/get/9058/14441195.30/0_7e0f3_ff76f66a_L.jpg&quot;/</a>
+Хотя, кроме <em>.js, </em>.css и *.html файлов, всё-таки есть один файл, написанный
+разрабочиком.
+Это
+<a href="https://github.com/varya/online-shop-dummy/blob/gh-pages/desktop.bundles/index/index.bemjson.js">index.bemjson.js</a>
+— JSON описание того, что за блоки нужны на странице и какова их древовидная
+структура. Звучит логично, ведь только человек знает, что нужно показать на
+странице. Всё остальное делают bem tools. Получив информацию о том, какие блоки
+нужны для страницы, они берут их код из <code>desktop.blocks</code> и формируют с их
+помощью страницу.</p>
+<p>Продолжая пример со строительством дома, можно сказать что <code>page.bemjson.js</code> —
+это чертеж.</p>
+<p><a href="img
+src=&quot;http://img-fotki.yandex.ru/get/6704/14441195.30/0_7e1ba_9dacd537_L.jpg&quot;/">img
+src=&quot;http://img-fotki.yandex.ru/get/6704/14441195.30/0_7e1ba_9dacd537_L.jpg&quot;/</a></p>
+<p>Но почему же <code>bem tools</code> нужно регулярное выражение в настройках?</p>
+<p>Это несложно. Все папки, которыми оперирует <code>bem tools</code> — это <code>уровни
+переопределения</code>. Должно быть легче, если представлять уровень как набор
+сущностей. Уровень блоков представлен папкой <code>desktop.blocks</code>, а уровень страниц
+— папкой <code>desktop.pages</code>. В конфигурационной папке
+<a href="https://github.com/bem/project-stub/tree/14e24fd17ba66a357a2f6fcdce045065b4eb5d6c/.bem/levels">.bem/levels/</a>
+есть инструкции, по которым bem tools понимают, что делать с уровнями разных
+типов.</p>
+<p>Выделяя в проекте блоки и бандлы, можно делать разные наборы блоков и разные
+бандлы, собранные из этих наборов. Например, блоки для desktop и touch версий
+сайта могут храниться в одном репозитории. И страницы, собранные из таких блоков
+— тоже.</p>
+<pre class="highlight"><code class="hljs avrasm">├── desktop<span class="hljs-preprocessor">.blocks</span>/
+├── desktop<span class="hljs-preprocessor">.bundles</span>/
+├── touch<span class="hljs-preprocessor">.blocks</span>/
+└── touch<span class="hljs-preprocessor">.bundles</span>/</code></pre>
+
+<p>Возвращаясь к примерам из реального мира, не только кирпичики могут быть
+модулями, но и детальки LEGO.</p>
+<p><a href="img
+src=&quot;http://img-fotki.yandex.ru/get/6704/14441195.30/0_7e0f6_f69c7d44_L.jpg&quot;">img
+src=&quot;http://img-fotki.yandex.ru/get/6704/14441195.30/0_7e0f6_f69c7d44_L.jpg&quot;</a></p>
+<p>Из них также можно построить дом. Немножечко другой, конечно.</p>
+<p><a href="img
+src=&quot;http://img-fotki.yandex.ru/get/9326/14441195.30/0_7e0f4_3d999550_L.jpg&quot;/">img
+src=&quot;http://img-fotki.yandex.ru/get/9326/14441195.30/0_7e0f4_3d999550_L.jpg&quot;/</a></p>
+<p>Если пойти дальше, вы можете выделить код блоков, общий для всех платформ, и
+хранить его отдельно.</p>
+<pre class="highlight"><code class="hljs avrasm">├── common<span class="hljs-preprocessor">.blocks</span>/
+├── desktop<span class="hljs-preprocessor">.blocks</span>/
+├── desktop<span class="hljs-preprocessor">.bundles</span>/
+├── touch<span class="hljs-preprocessor">.blocks</span>/
+└── touch<span class="hljs-preprocessor">.bundles</span>/</code></pre>
+
+<p>С такой структурой desktop версия формируется из кода блоков уровней
+<code>common.blocks</code> и <code>desktop.blocks</code>, а touch версия — из уровней <code>common.blocks</code>
+и <code>touch.blocks</code>.</p>
+<p><a href="img
+src=&quot;http://img-fotki.yandex.ru/get/6725/14441195.30/0_7e0f5_3e107fd4_L.jpg&quot;/">img
+src=&quot;http://img-fotki.yandex.ru/get/6725/14441195.30/0_7e0f5_3e107fd4_L.jpg&quot;/</a></p>
+<p>И в заключении, я не перестаю радоваться идее проекта
+<a href="https://github.com/bem/project-stub/">BEM project
+stub</a>. Сама постоянно использую его,
+начиная новые проекты. Туториал о
+<a href="http://ru.bem.info/articles/start-with-project-stub/">старте проекта на полном стеке
+БЭМ</a> показывает, как именно.
+Так же БЭМ использует и знакомый, задавший мне вопрос. Я никогда раньше не
+подозревала, что project stub позволяет начать работы с БЭМ без знания всего
+того, что описано выше. :-)</p>
+<p>Кстати, написав все это, я поняла, что описание основ БЭМ для меня несложно и
+занимает разумное время. При этом (я надеюсь!), это очень полезно для других.
+Так что спрашивайте всё, что вы хотите знать.</p>
+]]></description>
+            <link>http://varya.me//ru/issues/blocks-and-bundles</link>
+            <guid isPermaLink="true">http://varya.me//ru/issues/blocks-and-bundles</guid>
+            <dc:creator><![CDATA[Varya Stepanova]]></dc:creator>
+            <pubDate>Fri, 14 Feb 2014 20:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Бложик на bem tools 1.0.0alpha]]></title>
+            <description><![CDATA[<p><a href="http://bem.info/tools/bem/">bem tools</a> &mdash; пакет для сборки проекта с
+БЭМ-структурой развивается семимильными шагами. На подходе версия 1.0.0. Точнее,
+уже сейчас её можно использовать как alpha. Я попробовала на блоге, и уже этот
+текст отображается со статикой, собранной <code>bem tools 1.0.0</code>.<excerpt/></p>
+<p>Воспользоваться этой версией можно из ветки
+<a href="https://github.com/bem/bem-tools/tree/release-1.0.0">release-1.0.0</a>, то есть
+вместо версии написать в package.json</p>
+<pre class="highlight"><code class="hljs javascript">  <span class="hljs-string">"dependencies"</span>: {
+    ...
+    <span class="hljs-string">"bem"</span>: <span class="hljs-string">"git://github.com/bem/bem-tools.git#7b07045b17ff"</span>,
+    ...
+  },
+</code></pre>
+<p>Или, ещё легче, структуру проекта можно позаимстровать из
+<a href="https://github.com/bem/project-stub/tree/feature/bt-1.0.0">project-stub/feature/bt-1.0.0</a>.
+ Вообще <code>project-stub</code> очень удобное изобретение. Я все свои проекты начинаю с
+ него. Для перехода между версиями тоже отлично: просто делается сравнение
+ текущего проекта с другой веткой project-stub, и при применении всех изменений,
+ проект заводится из коробки.</p>
+<p>Итак, что у нас нового? Не принципиально в проекте, а с моей пользовательской
+точки зрения.</p>
+<p>Появилась возможность складывать минимизированные файлы не в
+<code>_page.css</code> и <code>_page.js</code>, а в файлы <code>page.min.css</code> и <code>page.min.js</code>. Кстати,
+project-stub <a href="https://github.com/bem/project-stub/blob/142e92c58e2ecf0ea3b658f71c203fee214df8d1/.bem/make.js#L34">именно так и
+настроен</a>.
+Это для меня критичное изменение, потому что оно наконец-то дало возможность
+использовать <code>bem tools</code> в блоге. Блог запущен на Jekyll, встроенном в GitHub,
+то есть хостится на технологии gh-pages. По умолчанию gh-pages не показывает
+файлы, начинающиеся с подчеркивания. Есть трюк — добавить в корень репозитория
+файл <code>.nojekyll</code>, но тогда перестаёт работать Jekyll :-) В общем, мне
+приходилось пользоваться <a href="https://github.com/enb-make/enb">ENB</a> ради единственной 
+фичи - возможности минимизировать в <code>page.min.*</code>. ENB хорош, но мейнстрим есть
+мейнстрим, прехожу обратно на <code>bem tools</code>.</p>
+<p>Еще одно важное user friendly изменение &mdash; уровни страниц теперь не содержат
+папку <code>.bem</code> с настройками, по крайней мере по умолчанию. Все настройки
+сосредоточены в папке <code>.bem</code> <a href="https://github.com/bem/project-stub/tree/5231f6a2de35dabfd2017574673e40a2a36ed435/.bem">в корне
+проекта</a>.</p>
+<p>Это изменеие не заметно, если начинать проект с project-stub и ничего не
+менять. Тогда не важно, какая структура. А вот внесение изменений стало
+психологически комфортнее. По крайней мере точно известно, что надо менять
+<code>.bem</code> в корне.</p>
+<p>Для доставки библиотек на проект теперь использутеся
+<a href="https://github.com/bower/bower">Bower</a>, пакетный менеджер от Twitter. Про него
+тоже интересно почитать.</p>
+<p>Соответственно, в корне проекта появился файл
+<a href="https://github.com/bem/project-stub/blob/5231f6a2de35dabfd2017574673e40a2a36ed435/bower.json">bower.json</a>
+со списком библиотек.</p>
+<pre class="highlight"><code class="hljs javascript">{
+    <span class="hljs-string">"name"</span>: <span class="hljs-string">"bem-project-stub"</span>,
+    <span class="hljs-string">"version"</span>: <span class="hljs-string">"0.0.1"</span>,
+    <span class="hljs-string">"dependencies"</span>: {
+        <span class="hljs-string">"bem-core"</span>: <span class="hljs-string">"9e5dc255421304fd652552c948cdf7af35dc8a68"</span>,
+        <span class="hljs-string">"bem-components"</span>: <span class="hljs-string">"bem/bem-components"</span>
+    }
+}
+</code></pre>
+<p>И служебный файл <a href="https://github.com/bem/project-stub/blob/5231f6a2de35dabfd2017574673e40a2a36ed435/.bowerrc">.bowerrc</a>.</p>
+<p>Вместе с новой версией <code>bem tools</code> блог теперь пользуется новыми библиотеками,
+хотя вообще это не взаимосвязано &mdash; библиотеки могут быть использованы и со старым
+сборщиком.</p>
+<p>Вместо <code>bem-bl</code> в основе лежат блоки библиотеки <a href="https://github.com/bem/bem-core/tree/v1">bem-core</a>.
+Она только только <a href="http://clubs.ya.ru/bem/replies.xml?item_no=4301">анонсирована</a>.
+Миграция на библиотеку делается <a href="https://github.com/bem/bem-core/blob/v1/MIGRATION.ru.md">по инструкции</a>,
+и она несложная. Несмотря на введение нового JavaScript-based синтаксиса для
+BEMHTML шаблонов, старый лаконичный синтаксис тоже поддерживается. Так что в моём
+случае нужно было только перевести JavaScript блоков на новую модульную систему.
+<a href="https://github.com/varya/bem-js-tutorial">Туториал по BEM JavaScript</a> как обычно
+&mdash; готовится.</p>
+<p>Таким образом, сборка блога наконец-то вошла в относительно стабильное состояние,
+а я теперь могу заниматься его контентом и улучшением frontend части.</p>
+]]></description>
+            <link>http://varya.me//ru/issues/bem-tools-100-alpha</link>
+            <guid isPermaLink="true">http://varya.me//ru/issues/bem-tools-100-alpha</guid>
+            <dc:creator><![CDATA[Varya Stepanova]]></dc:creator>
+            <pubDate>Sat, 30 Nov 2013 20:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Упражнения для дикции]]></title>
+            <description><![CDATA[<p>Этим упражнениям меня учили на моих первых курсах английского языка. Выглядит
+смешно, но оказыватся полезным.<excerpt/></p>
+<h3 id="-">Для губ</h3>
+<ol>
+<li>Вытянуть губы в трубочку, растянуть улыбку со сведенными губами.</li>
+<li>То же самое с открытыми губами.</li>
+<li>Вытянуть «хоботок» и делать круговые движения.
+1.Петь слитно: и, э, а, о, у, ы.</li>
+<li>Произносить быстро:<br/>
+пи, пи, пи,<br/>
+пэ, пэ, пэ,<br/>
+па, па, па,<br/>
+по, по, по,<br/>
+пу, пу, пу,<br/>
+пы, пы, пы.</li>
+<li>Попеременно: вытянуть губы, раскрыть рот.</li>
+</ol>
+<h3 id="-">Для челюсти</h3>
+<ol>
+<li>Нижнюю челюсть в одну сторону, потом в другую. Верхняя челюсть неподвижна.</li>
+<li>Открывать и закрывать рот, двигая нижнюю челють вниз.</li>
+</ol>
+<h3 id="-">Для языка</h3>
+<p>Эти упражнения лучше делать с зеркалом. Может понадобиться платок, чтобы
+вытирать рот.</p>
+<ol>
+<li>Вытянуть язык, сделать острым, потом растянуть.</li>
+<li>Язык выглянул, напрягся, расслабился, спрятался.</li>
+<li>Язык выглянул, направо, налево, прямо, спрятался.</li>
+<li>Делать языком «часики»: направо, налево.</li>
+<li>С закрытым ротом упираться языком в щёку и давить на неё.</li>
+<li>Круговые движения с высунутым языком.</li>
+<li>Рот открыт, язык напряженный. Доставать и убирать язык.</li>
+<li>Кончиком языка гладить нёбо вперёд, назад.</li>
+<li>Высунуть язык, делать движения вверх, вниз кончиком языка.</li>
+<li>Упражнение «грибок»: плоский язык прижимать к нёбу.</li>
+<li>Пощёлкать языком.</li>
+<li>Сложить язык трубочкой.</li>
+</ol>
+]]></description>
+            <link>http://varya.me//ru/issues/articulation-exercises</link>
+            <guid isPermaLink="true">http://varya.me//ru/issues/articulation-exercises</guid>
+            <dc:creator><![CDATA[Varya Stepanova]]></dc:creator>
+            <pubDate>Sun, 30 Jun 2013 20:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Мой опыт изучения английского]]></title>
+            <description><![CDATA[<p>Я занимаюсь английским с осени 2008, начала с уровня Elementary, который мне
+достался <nobr>со школы</nobr>. Какой уровень сейчас, можете посмотреть в <a href="/ru/content/">статьях и
+выступлениях</a>, <nobr>или в коротком</nobr> видео <a href="http://bem.info/blog/2013/02/bem-goes-to-india/">BEM goes to
+India</a>.</p>
+<p>Многие просят поделиться <nobr>опытом и дать</nobr> совет, <nobr>так что — вот
+он</nobr> пост в блог.<excerpt/><br/>
+Отвечаю на самые частые <nobr>вопросы и</nobr> суммирую свой опыт.</p>
+<h3 id="-native-">Преподаватель: native или русско-язычный?</h3>
+<p>Этот вопрос задают чаще всего. Мой <nobr>ответ —</nobr> <nobr>и тот</nobr>,</p>
+<nobr>и другой.</nobr>
+
+<p>Они учат по-разному, и самым мудрым решением будет чередовать их или
+заниматься одновременно, если есть такая возможность.</p>
+<p>Native хорош для преодоления барьера. Дело не только в знании языка, но и в
+способности объяснить что угодно доступными средствами. Если изучаемый язык —
+это единственный язык общения с преподавателем, то вы волей-неволей учитесь
+выражать свои мысли <nobr>в условиях</nobr> ограниченного словарного запаса. Общение с native
+учит быстро находить аналогии и простые объяснения сложным вещам.<br/>
+С другой стороны, если у вас есть возможность погрузиться в среду без
+преподавателя, нет смысла переплачивать за его происхождение.</p>
+<p>Русскоязычный преподаватель хорош тем, что точно знает корни ваших ошибок и
+может объяснить тонкости языка с подходящей именно вам позиции.
+Например, есть много статей <nobr>и глав</nobr> <nobr>в книгах</nobr> по английской грамматике о том,
+когда нужно употреблять who, <nobr>а когда —</nobr> whom (аналогично she/her, he/him и т.д.). Но
+у русскоязычных практически никогда не бывает проблем <nobr>с этим</nobr>, потому что падежи
+естественны для нашего родного языка. Гораздо лучше потратить время на необычные
+для русского языковые конструкции.<br/>
+Так что, русскоязычный преподаватель
+заранее знает, какие вещи будут для вас сложны <nobr>из-за</nobr> вашего происхождения, и
+заострит на них внимание. В случае ошибки, он не просто укажет <nobr>на
+неё</nobr>,
+но и расскажет <em>почему</em> вы ошиблись. Это касается и грамматики,
+и произношения, <nobr>и лексики.</nobr></p>
+<p>С точки зрения квалификации русскоязычный преподаватель почти наверняка будет
+лучше, чем native. В основном у нас учат люди, 5 лет учившиеся в
+университете именно преподаванию языка.
+Тогда как одно только происхождение и знание родного языка <nobr>ещё не
+делает</nobr> человека
+хорошим преподавателем. Чтобы убедиться в этом, просто задумайтесь, сможете ли
+вы без специальной подготовки научить иностранца русскому.<br/>
+При этом можно и среди native найти профессионального преподавателя (у меня была
+такая волшебная тётенька), но эти занятия могут быть в 2 раза дороже.<br/>
+Хотя нельзя исключать такую вещь как <em>талант</em>. Несмотря на всё написанное выше,
+мой самый лучший преподаватель — native, и у него нет специального образования.</p>
+<h3 id="-">Групповые занятия или индивидуальные?</h3>
+<p>Я начинала с групповых занятий, первые 2 года ходила на курсы. В середине 2-го
+года начала занятия по Skype, и как только курсы закончились, продолжала заниматься
+только индивидуально. Были попытки вернуться к занятиям в группе, но не особо
+удачные, об этом ниже.</p>
+<p>Могу однозначно сказать, что индивидуальные занятия или занятия в мини-группах
+намного эффективнее. Но с групповых занятий очень хорошо начинать. Также нужно
+учитывать, как ещё кроме занятий <nobr>на курсах</nobr> вы можете тренировать язык. Может так
+оказаться, что курсы — ваша единственная возможность для широкой разговорной
+практики. Тогда выбор будет другим.</p>
+<h3 id="-">На какие курсы пойти?</h3>
+<p>Часто спрашивают, на какие курсы пойти, и я всегда отвечаю «на самые дешевые».
+Дело в том, что эффективность занятий в группе на 99,999% зависят от состава и
+мотивированности группы. Найти хорошую группу вы можете только случайно, никакой
+имидж курсов не может гарантировать вам хороших одногрупников.</p>
+<p>В работе группы очень важна слаженность, всем стоит следовать замыслу
+преподавателя, тогда обучение будет самым эффективным. Обычно это означает, что
+вы (и все остальные) должны выполнять домашнее задание. Звучит банально, но это
+правда самая важная вещь <nobr>в работе</nobr> группы.<br/>
+Люди, не выполняющие домашние задания, забирают деньги у своих одногруппников.
+Группа <nobr>не может</nobr> двигаться дальше, если какая-то её часть, даже меньше половины,
+не освоила материал.</p>
+<p>Поэтому не бойтесь придирчиво выбирать группу. Для этого на курсах обычно есть
+пробные уроки: если вы хотите присоединиться уже после начала занятий, вам дадут
+поприсутствовать на одном уроке.<br/>
+Если вы попали в группу, которая тормозит — требуйте перевода в другую. Или
+уходите <nobr>с курсов</nobr>.<br/>
+Я практически потеряла свой первый год с безынициативной группой (хотя
+преподаватель была просто чудесная) пока не осмелилась попросить перевода в
+другую группу, где я сразу увидела разницу.</p>
+<p>По тем же самым причинам я не жалую курсы на работе. Обычно мои коллеги очень
+заняты, и <nobr>к занятиям</nobr> никто не готовится. По крайней мере в тех группах, на
+занятиях которых пристуствовала я.<br/>
+При этом очень эффективны занятия в группе с подростками: они всегда делают
+задание, и у них всегда есть четкое представление, зачем они ходят на курсы.</p>
+<h3 id="-">Сколько стоят занятия?</h3>
+<h5 id="-">Индивидуальные</h5>
+<p>~1300 с русскоязычным преподавателем за 90 минут, и ~1600 с
+носителем языка. Если преподаватель очень крутой (кандидат наук или native с
+профессиональным образованием), то цена может быть любой. Я встречала 3500 за 90
+минут.</p>
+<h5 id="-skype">Индивидуальные занятия по Skype</h5>
+<p>На специальных сайтах-агрегаторах есть и по 500 рублей за 60 минут. Но учить за такие
+деньги будут только тамошние сантехники, рассматривающие преподавание языка как
+необременительную подработку. Занятия с опытным native преподавателем
+начинаются <nobr>от 1000 рублей</nobr> <nobr>за 60 минут</nobr>.</p>
+<h5 id="-">Курсы в большой группе</h5>
+<p>Обычная группа — это 10-15 человек. Курсы стоят по-разному, зависит от бренда.
+Минимум, который мне удавалось найти, 12 тысяч за семестр (сентябрь-декабрь или
+январь-май). <nobr>При этом</nobr> цена повышается каждый год, и сейчас это уже тысяч 15.</p>
+<h3 id="-">Можно ли заниматься без преподавателя?</h3>
+<p>Как правило занятия без преподавателя помогают только поддерживать уровень
+языка, <nobr>а не
+повышать</nobr> его. Если только вы специально не нацелены на повышение уровня, о чём я
+напишу ниже.</p>
+<p>Также, чем ниже уровень, тем сложнее заниматься без преподавателя. Это
+достаточно комфортно на Upper Intermediate и тем более Advanced, но трудно на
+Pre-Intermediate.</p>
+<p>И, независимо от уровня, если вы раньше не изучали язык системно и хотите
+начать, удобнее сделать это с профессиональной помощью. Кроме самого языка вы
+получаете структуру урока, которую в дальнейшем можно будет копировать дома, и
+формируете свой режим.</p>
+<h3 id="-">Сколько времени это всё занимает?</h3>
+<p>Обычно на каждый уровень требуется один год, если заниматься 2 раза в неделю по
+90 минут. Есть интенсивные курсы, где обещают уровень за 3 месяца (примерно 4
+занятия в неделю <nobr>по 135 минут</nobr>). Но всё равно мозг так не работает, после
+интенсива нужен перерыв и 3-4 уровня за год невозможны.</p>
+<h3 id="-">Как организовать занятия?</h3>
+<p>Ответ на этот вопрос скорее касается управления временем, а не изучения языка.
+Просто нужно оценивать насколько для достижения долгосрочной цели важно сейчас
+позаниматься или сейчас посмотреть футбол, и решать исходя из приорететов.</p>
+<p>Как минимум, на занятия должно быть выделено время, в том числе и на выполнение
+домашнего задания. Хорошо помечать это время в календаре, причем не в ночь до
+сдачи задания, а хотя бы за день.</p>
+<p>Первые 2 года я занималась каждый день: 2 раза в неделю <nobr>на курсах</nobr>, в остальные
+дни — домашнее задание и дополнительные уроки. В середине 2-го года стало 2 раза
+в неделю <nobr>на курсах</nobr>, 1 раз в неделю по Skype и остальные 4 дня — домашнее
+задание.</p>
+<h3 id="-">Что делать, если застрял на одном уровне?</h3>
+<p>Очень эффективный способ сделать рывок — пройти подготовку к сдаче одного из
+<a href="http://ru.wikipedia.org/wiki/ESOL">кэмбриджских экзаменов</a>. Сам экзамен можно
+не сдавать, тем более, что они сильно платные. Но центры приёма экзамена
+проводят и пробные экзамены, стоимость которых в районе <nobr>1000 рублей</nobr>. <nobr>На
+такой</nobr> репетиции можно примерно оценить свой успех.</p>
+<p>FCE подойдёт для
+того, чтобы перейти с Intermediate на Upper Intermediate, CAE — чтобы достичь
+уровня Advanced или укрепить его, и CPE для уровня Proficient.</p>
+<p>Я сейчас занимаюсь по программе подготовки к CAE, и могу сказать, что даже на
+моём уровне это challenge.</p>
+<h2 id="-">Умные мысли</h2>
+<p>Во владении языком я выделяю такие “столпы”:</p>
+<ul>
+<li>словарный запас</li>
+<li>грамматика</li>
+<li>беглость и естественность речи</li>
+<li>восприятие на слух</li>
+<li>произношение</li>
+<li>чувство языка</li>
+</ul>
+<p>По поводу развития каждого из этих направлений есть свои соображения.</p>
+<h3 id="-">Как запоминать новые слова</h3>
+<p>Учить слова не обязательно, но если вы хотите, то можно. Я учу.</p>
+<p>Для запоминания использую метод
+<a href="http://en.wikipedia.org/wiki/Flashcard">flashcards</a>. В общем случае это
+карточка со словом на одной стороне и переводом на другой. Естественно, в моём
+случае &quot;карточки” электронные.</p>
+<p>Я перепробовала множество приложений и для десктопа и для iPhone и остановилась
+на Lingvo Tutor (в нём живёт смешной Бобёр), который идёт в комплекте со словарём Lingvo в версии для
+Windows. Ради него я всегда держу на своём маке Windows, запущенную в Parallels
+в когерентном режиме. А раньше, когда у меня была Ubuntu, я даже как-то хитро
+готовила Wine для запуска Tutor. Эти факты должны дать вам понимание того,
+насколько хорошим я считаю данное приложение :-)</p>
+<p>Почему именно Бобёр:</p>
+<ul>
+<li>для правильного ответа слово нужно написать, а не выбрать из предложенных
+вариантов;</li>
+<li>умеет спрашивать перевод как с английского на русский, так и с русского на
+английский;</li>
+<li>озвучивает английские слова;</li>
+<li>показывает транскрипцию.</li>
+</ul>
+<p>Необходимость писать слово самостоятельно гарантирует запоминание, а озвучивание
+задействует не только визуальную, но и аудиальную память.</p>
+<p>В моём словаре 10 тысяч слов, 6 из них я уже выучила. Цифра условна, потому что
+простые слова, знакомые со школы, я туда не заношу.</p>
+<p>В активном изучении у меня 50-100 слов. Они появляются там после занятия с
+преподавателем, когда я заношу все новые слова после урока. Это помогает
+подготовиться и более эффективно провести следующий урок.<br/>
+Если слова слов в активной очереди стало меньше, я добавляю туда слова из
+отложенной очереди.</p>
+<p>В отложенную очередь слова попадают из книг, фильмов и интернета. Выученные
+слова тоже регулярно перебираются в отложенную очередь в случайном порядке, ведь
+их надо регулярно “вспоминать”.</p>
+<p>Среди слов в словаре на изучение много фраз и выражений. Вообще слова удобнее
+всего учить фразами.</p>
+<p>Помимо активного пополнения словарного запаса есть ещё и пассивный — из чтения.</p>
+<p>Начинать читать можно с книг по <a href="http://ru.wikipedia.org/wiki/%CC%E5%F2%EE%E4_%F7%F2%E5%ED%E8%FF_%C8%EB%FC%E8_%D4%F0%E0%ED%EA%E0">методу Ильи
+Франка</a>.
+Затем можно приняться за адаптированные книги издательств Macmillan и Penguin
+Readers — у них есть переложенная классика и интересные книжки про
+знаменитостей или про историю. Часто такие книжки идут с диском, можно
+тренировать и слух.<br/>
+И, наконец, читать обычные книги. Это возможно даже на Intermediate. А дальше —
+больше. <nobr>С Upper Intermediate</nobr> можно начинать удивляться языковым конструкциям, с
+Advanced — <nobr>по-настоящему</nobr> наслаждаться верно пойманным словом.</p>
+<p>Когда читаешь, главное не зацикливаться на одной теме, потому что лексику очень
+важно набрать из разных областей. Для этих целей у меня дома есть кулинарные
+книги, анатомический словарь, учебник по колдовству и монография про
+физику оптической передачи данных.<br/>
+То же самое касается фильмов и сериалов. Мне было очень интересно смореть
+Тюдоров, Рим и оба сериала про Борджиа: в результате около 1000 слов в моём
+словаре — религиозные термины или средневековые ругательства. Хорошо бы
+перемешать это с терминами из Computer Sience.</p>
+<p>Выровнять свой словарный запас можно и специально читая тексты на разные заранее
+подобранные темы:</p>
+<ul>
+<li><a href="http://www.english-online.at/a-z-topic-index.htm">A-Z Topic Index</a></li>
+</ul>
+<p>Ещё один способ пассивно расширять лексикон — подкасты. Конечно, самый
+прекрасный подкаст — это <a href="http://www.eslpod.com/website/index_new.html">ESL
+Pod</a>. По темпу речи и
+разжеванности от расчитан на Intermediate, но я <nobr>всё равно</nobr> его иногда слушаю —
+нравится.</p>
+<p>Ещё подкасты:</p>
+<ul>
+<li><a href="http://www.bbc.co.uk/podcasts/series/tae">The English We Speak</a> by BBC</li>
+<li><a href="http://www.listen-to-english.com/index.php?cat=podcasts">Listen to English</a> by Peter Carter</li>
+<li><a href="http://www.npr.org/programs/ted-radio-hour/">TED Radio Hour</a></li>
+<li><a href="http://www.npr.org/programs/ask-me-another/">Ask Me Another</a></li>
+</ul>
+<h3 id="-">Занятия грамматикой</h3>
+<p>На уровнях до Upper Intermediate (включительно) нужны отдельные занятия
+грамматикой. Обычно задания по грамматике есть в учебниках, но мне кажется, что
+этого не достаточно, нужны отдельные книжки и выделенное на грамматику время.</p>
+<ul>
+<li>Голицынский, <a href="http://market.yandex.ru/model.xml?modelid=6384919&amp;hid=90829&amp;show-uid=436135713648985032">Грамматика</a></li>
+<li>Raymond Murphy, <a href="http://market.yandex.ru/model.xml?modelid=1226404&amp;hid=90980&amp;show-uid=430779713648986143">Essential Grammar in
+Use</a><br/>
+Helen Nayor, <a href="http://market.yandex.ru/model.xml?modelid=1226446&amp;hid=90881">Essential Grammar in Use Supplementary
+Exercises</a></li>
+<li>Raymond Murphy, <a href="http://market.yandex.ru/model.xml?modelid=8186928&amp;hid=90829&amp;show-uid=486263413648985591">English Grammar in
+Use</a><br/>
+Raymon Murphy, <a href="http://market.yandex.ru/model.xml?modelid=8404419&amp;hid=90829&amp;show-uid=101532013648987912">English Grammar in Use Supplementary
+Exercises</a></li>
+<li>Martin Hewings, <a href="http://market.yandex.ru/model.xml?modelid=1155109&amp;hid=90980&amp;show-uid=574557113648988843">Advanced Grammar in
+Use</a><br/>
+Silmon Haines, <a href="http://market.yandex.ru/model.xml?modelid=1515345&amp;hid=90881&amp;show-uid=574557113648988841">Advanced Grammar in Use Supplementary
+Exercises</a></li>
+<li><a href="http://market.yandex.ru/model.xml?modelid=1454531&amp;hid=90880&amp;text=longman%20advanced%20grammar&amp;srnum=9">Advanced Learners&#39;
+Grammar</a></li>
+</ul>
+<h3 id="-">Беглая и естественная речь</h3>
+<p>Единственный способ хорошо заговорить на иностранном языке — это говорить на
+нём. Чтение книг и просмотр сериалов, в субтитрами или без — это хорошо. Но это
+помогает достичь других целей.<br/>
+Что касается речи, нужны места её применения. Это могут быть</p>
+<ul>
+<li>занятия с англоязычным преподавателем</li>
+<li>couchsurfing<br/>
+О своей цели практиковать язык лучше прямо в профайле и написать, так ваши
+гости будут знать, чем они могут помочь.</li>
+<li>посещение разговорного клуба</li>
+<li>путешествия</li>
+<li>свой подкаст</li>
+<li>публичные выступления</li>
+</ul>
+<h3 id="-">Восприятие иностранного языка на слух</h3>
+<p>На начальном этапе восприятие на слух можно тренировать при помощи подкастов
+(список выше) и фильмов с субтитрами, постепенно от субтитров отказываясь.</p>
+<p>Но нe для серьёзного развития, начиная с уровня Upper Intermediate (а может и
+раньше), нужно слушать непрофессиональных дикторов. Мне очень хорошо подошли
+подкасты для программистов. Они бывают самого разного качества, кто-то
+записывает свой подкаст <nobr>в гараже</nobr> на непрофессиональном оборудовании, со всеми
+шумами и свистами.</p>
+<p>Если подходящих подкастов нет, восприятие на слух можно тренировать одновременно
+с тренировкой речи, разговаривая с живыми людьми. Кроме клубов, для общения
+есть <nobr>онлайн-сервисы</nobr>, например <a href="http://www.sharedtalk.com/">SharedTalk.com</a>.</p>
+<p>Кроме того, оказалось, что на способность распознавать чужую речь очень сильно
+влияет качество собственного произношения. Так что, я работаю над произношением
+не только потому что говорю, но и потому что слушаю.</p>
+<h3 id="-">Произношение и интонация</h3>
+<p>Произношение очень сильно влияет на то, как вас понимают люди. Кажется, даже
+больше чем общая грамотность и словарный запас.</p>
+<p>Я занимаюсь по книгам <code>English Pronunciation in Use</code>. Сначала пробовала
+заниматься самостоятельно, но это не дало ощутимых результатов, хотя я очень
+старалась. Поэтому эти занятия у меня только под надзором преподавателя.</p>
+<p>Кроме звуков я тренирую интонацию. Это оказалось сложнее и больше влияет на то,
+понятно ли я говорю. Я использую для этого звукозаписывающие программы. Обычно
+повторяю за диктором  (тут как раз важно выбрать профессионала или нейтива)
+каждое предложение, всё записываю. Потом проигрываю подряд сначала диктора,
+потом себя. Слышу разницу <nobr>и записываю</nobr> снова. <nobr>И так</nobr> миллион раз. Прогресс очень
+медленный, но я <nobr>не нашла</nobr> способа сделать лучше.</p>
+]]></description>
+            <link>http://varya.me//ru/issues/learn-english</link>
+            <guid isPermaLink="true">http://varya.me//ru/issues/learn-english</guid>
+            <dc:creator><![CDATA[Varya Stepanova]]></dc:creator>
+            <pubDate>Wed, 01 May 2013 20:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10 ошибок XSLT-программистов]]></title>
+            <description><![CDATA[<p>Перевод <a href="http://saxonica.blogharbor.com/blog/_archives/2010/6/11/4550606.html">статьи &quot;The ten most common XSLT programming 
+mistakes&quot;</a>,
+ссылка на которую недавно опубликована в <a href="http://clubs.ya.ru/xslt/">клубе XSLT на
+Я.ру</a>.</p>
+<p>Недавно я сказал в ответ пользователю, что он попадает в наиболее
+распространённые ловушки для программистов на XSLT. Вместо того, чтобы быть 
+раздраженным, что я почти ожидал, он поблагодарил меня и спросил, не мог бы я
+рассказать ему о двугих ловушках.<excerpt/> Некоторые из нас помогают людям избежать этих
+ловушек в течение многих лет, но, несмотря на это, я не припомню, чтобы видел
+список таких ловушек. Так что я решил потратить полчаса, чтобы составить такой
+список.</p>
+<ul>
+<li>Обрабатывать элементы в дефолтном пространстве имён (namespace). Если
+исходный XML-документ содержит декларацию дефолтного пространства имён
+<code>xmlns=&quot;something&quot;</code>, то каждый раз, когда вы ссылаетесь на имя элемента в
+XPath-выражении или значении атрибута match, вы должны ясно давать понять, что
+вы имеете в виду элементы из этого пространства имён. В XSLT 1.0 вы должны
+связать префикс с этим пространством имён (например <code>xmlns:p=&quot;something&quot;</code> в
+элементе <code>xsl:stylesheet</code>) и затем везде использовать этот префикс, напимер,
+<code>match=&quot;p:chapter/p:section&quot;</code>. В XSLT 2.0 есть альтернатива - задекларировать в
+элементе xslt:stylesheet <code>default-xpath-namespace=&quot;something&quot;</code>.</li>
+<li><p>Использование относительных путей. xsl:apply и xsl:for-each принимают текущий
+узел; в рамках &quot;цикла&quot; пути должны быть написаны относительно текущего узла.
+Например,</p>
+<p><xsl:for-each select="chapter"><xsl:value-of select="title"/></xsl:for-each></p>
+</li>
+</ul>
+<p>Распространённая ошибка - использование абсолютных путей внутри цикла (например <em>select=&quot;//title&quot;</em>) или повторение имени контекстного узла в относительном пути (<em>select=&quot;chapter/title&quot;</em>).</li>
+  <li>Переменные содержат значения, а не фрагменты синтаксических выражений. Некоторые люди думают, что ссылка на переменную $x подобна макросу, распространяющемуся и на синтаксис xPath-выражений путйм буквального замещения - как в языках типа shell. Это не так: вы можете использовать переменные только там, где вы можете использовать значение. Например, если $N содержит строку &#39;para&#39;, то выражение <em>chapter/$N</em> не означает того же, что и <em>chapter/para</em>. Вместо этого вам нужно <em>chapter/*[name()=$N]</em>. Если переменная содержит что-то более сложное, чем просто имя (например, запись xPath-пути), вам понадобится расширение, подобное saxon:evaluate(), чтобы вычислить это.</li>
+  <li>Шаблонные правила <em>xsl:apply-templates</em> - это не расширенные возможности языка для подвинутых пользователей. Это самые основные, фундаментальные конструкции в XSLT. Не откладывайте тот день, когда вы начнёте их использовать. Если вы не используете их, вы делаете свою жизнь излишне сложной.</li>
+  <li>XSLT принимает дерево на вход и отдаёт дерево на выходе. Непонимание этого является причиной многих разочарований, которые возникают у новичков в XSLT. XSLT не может обработать вещи, которые не представлены в дереве, предоставленном XML-парсером (области CDATA, ссылки на сущности (entity), XML-декларация), и не может сгенерировать эти вещи на выходе. Если вы думаете, что вам это необходимо, спросите &quot;почему?&quot;. Возможно что-то не так с вашими требованиями или замыслом.</li>
+  <li>Пространства имён (namespace) - это трудно. Нет лёгкого способа опровергнуть это. Возможно, это требует отдельной статьи. Разгадка в понимании модели пространств имён. Пространства имён проявляются в двух ипостасях:</p>
+<ol>  <li>Каждый элемент или атрибут имеет имя, состоящее из префикса, собственно имени и URI.</li>
+  <li>Элементы обладают узлами пространств имён, представляющими все префикс-uri соответствия в границах этого элемента.</li>
+</ol>
+Когда вы поймёте это, вы сможете понять особенности различных правил и их влияние на пространства имён в результирующем дереве. Чаще всего, всё, что вам нужно делать, это гарантировать, что создаваемые вами элементы находятся в верном пространстве имён, всё остальное произойдёт само собой.
+</li>
+  <li>Не используйте <em>disable-output-escaping</em>. Некоторые люди используют эту магическую приправу, но не понимают, что она делает. Они надеются, что это может заставить код работать лучше. Этот атрибут только для профессионалов, и профессионалы используют это только как последнее средство спасения. В 95% случаях, если вы встретили в преобразовании <em>disable-output-escaping</em>, это говорит о том, что автор был новичком, не понимающим, что он делает.</li>
+  <li>Инструкция <em><xsl:copy-of></em> создаёт точную копию исходного дерева, пространств имён и всего остального. (Есть исключение - в XSLT 2.0 вы можете сказать <em>copy-namespaces=&quot;no&quot;</em>). Если вы хотите скопировать дерево с изменениями, вы не можете использовать <em>xsl:copy-of</em>. Вместо этого используйте шаблон идентичного преобразования: шаблон, который использует создание поверхностной копии элемента и применяет <em>applies-templates</em> ко всем его потомкам, дополненный шаблонами, переопределяющими это поведение для отдельных элементов.</li>
+  <li>Не используйте
+[cc lang=&quot;xml&quot;]
+<xsl:variable name="x"><xsl:value-of select="y"/></xsl:variable>
+[/cc]
+Вместо этого используйте
+[cc lang=&quot;xml&quot;]
+<xsl:variable name="x" select="y"/>
+[/cc]
+Последняя запись короче, более действенна при исполнении, и в любом случае она корректна.</li>
+  <li>Когда вам нужно найти информацию, используйте ключи. Также как и в случае с шаблонами, не откладывайте изучение использования ключей и не выбрасыйте их из головы как &quot;продвинутую&quot; возможность. Это важнейший инструмент разработки. Поиск информации без использования ключей сродни забиванию гвоздей отвёрткой.</li>
+</ol>]]></description>
+            <link>http://varya.me//ru/issues/ten-xslt-mistakes</link>
+            <guid isPermaLink="true">http://varya.me//ru/issues/ten-xslt-mistakes</guid>
+            <dc:creator><![CDATA[Varya Stepanova]]></dc:creator>
+            <pubDate>Sat, 11 Sep 2010 19:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Эффективное использование рекурсии в XSL]]></title>
+            <description><![CDATA[<p>Перевод статьи <a href="http://www.ibm.com/developerworks/xml/library/x-xslrecur/">Use recursion effectively in XSL</a>.
+Введение в XSL-рекурсию и приёмы для оптимизации её использования.</p>
+<p>Эффективное и рациональное использование XSL-преобразований требует понимания,
+как использовать XSL в качестве функционального языка, что означает понимание рекурсии.
+Эта статья знакомит с ключевыми идеями рекурсии и особенностей её использования
+в XSL.<excerpt/> Также объяснены приёмы для оптимизации преобразования XML и избегания ошибок
+при использовании рекурсии. Каждая идея или метод сопровождаются примерами кода.</p>
+<p>Сейчас в мире преобладают императивные языки программирования. Наиболее популярные языки - Java, C (и его различные виды), Visual Basic и другие - на высоком абстрактном уровне работают, в основном, одинаково: вы задаёте некоторые переменные, вызываете функции или операторы, которые меняют эти переменные, и возвращаете результат. Это сильное приближение к программированию, и это, конечно, не всё.</p>
+<p>Языки программирования другой породы, пока менее привычной, по крайней мере также сильны как их процедурные &quot;коллеги&quot;. Эти языки названы <em>функциональными</em> или <em>декларативными</em> языками. Программы, написанные на этих языках, могут только однажды определить переменные, и никогда не могут поменять хранимое значение однажды определённой переменной. Язык программирования XSL и функциональный, и декларативный. Это означает, что разработчики, привыкшие писать на Java или C, и изучающие XSL часто чувствуют себя не в своей тарелке, применяя самые передовые особенности XSL.</p>
+<p>Из-за роста важности как приложений, так и web-разработчиков и завязанности на XSL-технологию, эффективное использование XSL-преобразований не может быть проигнорировано. Так, наиболее важно научиться, как программировать в декларативной манере. Это подразумевает близкое знакомство с <strong>рекурсией</strong>, основанное на методах её эффективного использования и рационального решения текущих задач.</p>
+<h2><strong>Введение в рекурсию на примере</strong></h2>
+
+<p>Через использование рекурсивных функций декларативные языки способны предоставлять функциональность, подобную функциональности их императивных &quot;коллег&quot;. Это не значит, что императивные языки не могут использовать рекурсию. Большинство - могут. Разница в том, что декларативные языки используют рекурсию как основное средство деятельности, тогда как чаще всего это просто свойство в императивных языках. </p>
+<p>Рассмотрим функцию, которая высчитывает факториал от некоторого положительного целого. Вкратце, факториал числа - это число, полученное путём умножения всех предшествующих ему чисел. Так, факториал от 4 (или 4!) - 1<em>2</em>3*4 = 24. Распечатка 1 показывает один из способов написать эту функцию на Java:</p>
+<p><em>Распечатка 1. Решение задачи про факториал с использованием цикла на Java</em>
+[cc lang=&quot;java&quot;]
+public int factorial(int number) {
+    if (number &lt;= 1) return 1;
+    int result = 1;
+    for (int i=1; i &lt;= number; i++) {
+        result *= i;
+    }
+    return result;
+}
+[/cc]</p>
+<p>Пока это совершенно разумный код, он действительно пользуется тем фактом, что вы можете переопределить значения переменных в Java-программе. Без этой роскоши вы можете только решать задачу определением функций, как в Распечатке 2.</p>
+<p><em>Распечатка 2. Решение задачи про факториал с использованием рекурсии на Java</em>
+[cc lang=&quot;java&quot;]
+public int factorial(int number) {
+    if (number &lt;= 1) return 1;
+    return number * factorial(number-1);
+}
+[/cc]</p>
+<p>Результаты вызова этих двух реализаций вычисления факториала одинаковы. Вызов функции <em>factorial()</em> в теле метода показывает, что вторая реализации использует рекурсию. Этот метод может быть визуально представлен как лестница. Программа многократно спускается вниз, вызывая саму себя, собирая статическую информацию для каждого вызова пока не упрется в условие выхода из рекурсии. Достигнув конца, она идёт обратно, возвращая различные состояния уже сделанных вызовов, объединяя информацию, собранную на пути вниз, для получения финального результата. Пример про факториал показан на рисунке.
+<img src="http://www.ibm.com/developerworks/xml/library/x-xslrecur/steps.gif" alt="Представление рекурсии в виде лестницы" /></p>
+<p>В общем случае, рецепт создания рекурсивной функции включает в себя три ингредиента: условие выхода, код операции и рекурсивный вызов самого себя. В случае факториала, я вычисляю его для n путём вычисления факториала для n-1, n-2, n-3 и т.д. пока функция не достигнет условия выхода из серии - значения 1.</p>
+<p>Так, если сейчас идея рекурсии ещё кажется немного смущающей, вы могли бы прервать чтение этой статьи и либо проследовать по некоторым ссылкам на эту тему в разделе <a href="http://www.ibm.com/developerworks/xml/library/x-xslrecur/#resources">Ресурсы</a>, либо попробовать написать несколько функций самостоятельно (например, напишите функцию для расчёта n-го числа из ряда Фибоначчи).</p>
+<h2><strong>Общие использования рекурсии в XSL</strong></h2>
+
+<p>Два общих сценария использования рекурсии в XSL такие:</p>
+<p><ul>
+  <li>Когда у вас есть набор повторяющихся значений в исходном XML, и вы хотите, чтобы результат преобразования отражал что-то, касающееся всех этих значений. Например, если у вас есть каталог товаров в XML, и вы хотите представить эти товары в соответствии с общей ценой, вы захотите найти совокупную цену, используя рекурсивный шаблон.</li>
+  <li>Когда исходный XML содержит число <em>x</em> в теге, например &lt;countTo number=&quot;5&quot;/&gt;, и вы хотите представить некоторую информацию <em>x</em> раз в результирующей выдаче. Факториал - типичный пример такого случая, но я рассмотрю более сложный пример немного позже.</li>
+</ul>
+Я покажу рекурсивное решение, написанное на XSL для обоих сценариев, но сначала давайте взглянем на пример про факториал, решенный на XSL:</p>
+<p><em>Распечатка 3. Решение задачи про факториал с использованием рекурсии на XSL</em>
+[cc lang=&quot;xml&quot;]</p>
+<p><xsl:template name="factorial">
+  <xsl:param name="number" select="1"/>
+  <xsl:choose>
+    <xsl:when test="$number <= 1">
+      <xsl:value-of select="1"/>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:variable name="recursive_result">
+        <xsl:call-template name="factorial">
+          <xsl:with-param name="number" select="$number - 1"/>
+        </xsl:call-template>
+      </xsl:variable>
+      <xsl:value-of select="$number * $recursive_result"/>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
+[/cc]</p>
+<p>Этот шаблон содержит все &quot;игредиенты&quot; из рецепта для Java-рекурсии. Здесь есть условие выхода (проверка на равенство единице или нет): если условие выхода не выполняется, шаблон делает рекурсивный вызов самого себя (хранимый в переменной <em>recursive_result</em>). Наконец, для получения конечного результата совершается операция умножения между исходным числом и рекурсивно полученным значением. Вы также могли заметить, что XSL частно требует намного больше кода, чем решение той же задачи в других языках. Это всего лишь часть неоднозначностей в языке преобразования, который согласовывается с XML.</p>
+<h3><strong>Рекурсия, вариант 1: Суммирование сквозь множество элементов</strong></h3>
+
+<p>Теперь вы можете применить такой же метод, как и в примере с факториалом из <em>Распечатки 3</em>, чтобы найти общую стоимость товаров в XML-каталоге. Фактически, решение аналогично решению задачи с факториалом, за исключением того, что вы будете использовать сложение вместо умножения и набор узлов как исходную информацию вместо числа.</p>
+<p>Предположим, у вас есть каталог товаров, который выглядит походим на XML в <em>Распечатке 4</em> (кстати, вы можете скачать весь XML и XSL, и весь другой код из этой статьи по ссылке в <a href="http://www.ibm.com/developerworks/xml/library/x-xslrecur/#resources">Ресурсах</a>).</p>
+<p><em>Распечатка 4. Пример XML с продуктами</em>
+[cc lang=&quot;xml&quot;]</p>
+<p><Products>
+  <Product>
+    <Name>Gadget</Name>
+    <Price>$10.00</Price>
+  </Product>
+  <Product>
+    <Name>Gizmo</Name>
+    <Price>$7.50</Price>
+  </Product>
+  ...
+ </Products>
+[/cc]</p>
+<p>Цель в том, чтобы добавить первую цену из этого списка товаров к сумме всех других цен, пока вы не получите суммарный результат. Вы можете осуществить это при помощи XSL, показанного в <em>Распечатке 5</em>.</p>
+<p><em>Распечатка 5. Проход по узлам с использованием обычной XSL-рекурсии</em>
+[cc lang=&quot;xml&quot;]</p>
+<p><xsl:template name="priceSum">
+  <xsl:param name="productList"/>
+    <xsl:choose>
+      <xsl:when test="$productList">
+        <xsl:variable name="recursive_result">
+          <xsl:call-template name="priceSum">
+            <xsl:with-param name="productList"
+              select="$productList[position() > 1]"/>
+          </xsl:call-template>
+        </xsl:variable>
+        &lt;xsl:value-of
+          select=&quot;number(substring-after($productList[1]/Price,&#39;$&#39;))</p>
+<pre class="highlight"><code class="hljs xml">              + $recursive_result"/&gt;
+  <span class="hljs-tag">&lt;/<span class="hljs-title">xsl:when</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">xsl:otherwise</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">xsl:value-of</span> <span class="hljs-attribute">select</span>=<span class="hljs-value">"0"</span>/&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">xsl:otherwise</span>&gt;</span>
+</code></pre><p>  </xsl:choose>
+</xsl:template>
+[/cc]
+В этом случае вы вызываете функцию на постепенно уменьшающемся списке товаров, каждый раз добавляя первый элемент в список к рекурсивному вызову на остальных элементах списка. Когда список получается пустым, условие выхода достигнуто и вы добавляете ноль к результату, что не изменит сумму. Этот метод работы на всё меньшем и меньшем наборе узлов может быть использован во многих случаях.</p>
+<h3><strong>Рекурсия, вариант 2: Итерация на числе</strong></h3>
+
+<p>Вторая задача, с которой сталкиваются XSL-программисты, возникает, когда число содержится в некоторых случаях в исходном XML, и программисту нужно решить задачу это число раз. Например, XML может выключать информацию о сетке с некоторыми числами строк и столбцов, и преобразование необходимое для обеспечения визуального расположения сетки в HTML или каком-либо другом формате.</p>
+<p>Решение, как правило используемое разработчиками, незнакомыми с рекурсивными методами - это написать программу, которая разбирает XML и дополняет элементами для каждого ряда или столбца. Однажды написанный элемент &lt;xsl:for-each&gt; может решить задачу без рекурсивных шаблонов. Несмотря на то, что это решение обеспечивает подходящую выдачу, у него есть большой недостаток. Этот метод на самом деле удваивает объём работы для обеспечения финального результата преобразования. Этот недостаток чрезвычайно заметен в клиент-серверной модели, когда сервер посылает XML и XSL для преобразования на клиентской стороне. В таком случае всё продуктивности, обычно реализованные на сервере, теряются за счёт увеличения XML.</p>
+<p>Лучшее решение - использовать рекурсивные шаблоны, чтобы выполнять работы полностью в рамках преобразования. Рассмотрим получение таблицы умножения из XML-элемента в виде HTML. Входная информация будет содержать следующую строку:
+[cc lang=&quot;xml&quot;]</p>
+<p><MultiplicationTable Rows="3" Columns="4"/>
+[/cc]
+Цель состоит в том, чтобы преобразовать это в HTML, представляющий таблицу, похожую на:</p>
+<table border="1" cellpadding="5" cellspacing="0">
+<tr>
+<td></td>
+<td><strong>1</strong></td>
+<td><strong>2</strong></td>
+<td><strong>3</strong></td>
+<td><strong>4</strong></td>
+</tr>
+<tr>
+<td><strong>1</strong></td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>2</strong></td>
+<td>2</td>
+<td>4</td>
+<td>6</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td>3</td>
+<td>6</td>
+<td>9</td>
+<td>12</td>
+</tr>
+</table>
+
+<p>Этот пример кое в чём более сложный, чем первые два. В этом случае вы не просто возвращаете функциональный результат, представляющий решение проблемы, но вы всего лишь выдадите HTML как шаг рекурсивного процесса. Также вам необходимо соединить вместе два рекурсивных шаблона - один для рядов, другой для столбцов.</p>
+<p><em>Распечатка 6. Повторение по числу с использованием основной XSL-рекурсии</em>
+[cc lang=&quot;xml&quot;]</p>
+<p><xsl:template name="drawRow">
+  <xsl:param name="currentRow"/>
+  <xsl:param name="totalRows"/>
+  <xsl:param name="totalCols"/>
+  <xsl:if test="$currentRow <= $totalRows">
+    <tr>
+      <xsl:call-template name="drawCell">
+        <xsl:with-param name="currentRow" select="$currentRow"/>
+        <xsl:with-param name="currentCol" select="0"/>
+        <xsl:with-param name="totalCols" select="$totalCols"/>
+      </xsl:call-template>
+    </tr>
+    <xsl:call-template name="drawRow">
+      <xsl:with-param name="currentRow" select="$currentRow  + 1"/>
+      <xsl:with-param name="totalRows" select="$totalRows"/>
+      <xsl:with-param name="totalCols" select="$totalCols"/>
+    </xsl:call-template>
+  </xsl:if>
+</xsl:template></p>
+<p><xsl:template name="drawCell">
+  <xsl:param name="currentRow"/>
+  <xsl:param name="currentCol"/>
+  <xsl:param name="totalCols"/>
+  <xsl:if test="$currentCol <= $totalCols">
+    <xsl:variable name="bgColor">...</xsl:variable>
+    <xsl:variable name="value">...</xsl:variable>
+    <td bgcolor="{$bgColor}" align="center" valign="top">
+      <xsl:value-of select="$value"/>
+    </td>
+    <xsl:call-template name="drawCell">
+      <xsl:with-param name="currentRow" select="$currentRow"/>
+      <xsl:with-param name="currentCol" select="$currentCol + 1"/>
+      <xsl:with-param name="totalCols" select="$totalCols"/>
+    </xsl:call-template>
+  </xsl:if>
+</xsl:template>
+[/cc]</p>
+<p>В этом случае я использую два отдельный рекурсивных шаблона. Вначале рекурсивно рисую ряды пока не достигну условия выхода. Этот шаблон использует второй рекурсивный шаблон, чтобы нарисовать ячейки для каждого столбца в ряду. Этот общий метод применим для многоуровневого представления данных.</p>
+<h2><strong>Оптимизация паттернов рекурсии в XSL</strong></h2>
+
+<p>К сожалению, использование рекурсии во многих XSL-процессорах имеет один значительный недостаток при работе с большими объемами данных. Также слишком легко достигнуть переполнения стека (Stack Overflow) или нехватки памяти (Out of Memory) с функциями, которые достигают глубины порядка 10000. Если вы пытаетесь суммировать цены в каталоге с более чем 10000 товарами, вы можете столкнуться с проблемами.</p>
+<p>К счастью, есть пути по оптимизации рекурсивных функций, чтобы уменьшить или даже исключить глубину рекурсии, вытекающую из заданного шаблона. Оставшаяся часть этой статьи представляет четыре способа оптимизировать то, как вы пишете ваши рекурсивные решения на XSL.</p>
+<h3><strong>Оптимизация рекурсии 1. Разделяй и властвуй</strong></h3>
+
+<p>Вспомните первый пример, в котором мы пытались найти общую цену, суммировав все цены для нескольких товаров в XML-каталоге. Первоначальный подход - это добавить цену первого товара к сумме всех остальных, и делать это рекурсивно, пока вы не переберёте весь лист. При использовании этого подхода глубина рекурсии равна числу товаров в списке. Сейчас цель состоит в том, чтобы изменить метод так, чтобы вы получили тот же результат без вхождения в рекурсию так глубоко.</p>
+<p>Другой подход к этой проблеме - это разделить список на множество меньших частей и делать так рекурсивно, пока вы не разделите каждую часть на отдельные продукты. Самый простой путь представить это - разделение списка напополам, делая рекурсивный вызов на каждой половине и тогда сделать отдельные рекурсивные вызовы на двух получившихся списках. Это позволит завершить всю работу на одной половине,  до того как какая-то работа будет сделана на другой половине. Процесс обработки будет древовидный, а не линейный (похожий на лестницу) из первого решения. <em>Рисунок 2</em> показывает это рекурсивное дерево.
+<img src="http://www.ibm.com/developerworks/xml/library/x-xslrecur/tree.gif" alt="" /></p>
+<p>Используя подход &quot;разделяй и властвуй&quot;, вы не ощутите никакой экономии, в цифрах, по числу операций сложения, которые должны быть выполнены. Экономия будет заключаться в том, что операции сложения не ожидают того, чтобы все числа были получены и поставлены в очередь в стек рекурсии для выполнения операции. XSL-код в <em>Распечатке 7</em> показывает такой способ.</p>
+<p><em>Распечатка 7. Прохождение по узлам с использованием метода &quot;разделяй и властвуй&quot;</em>
+[cc lang=&quot;xml&quot;]</p>
+<p><xsl:template name="priceSumDivideAndConquer">
+  <xsl:param name="productList"/>
+    <xsl:choose>
+      <xsl:when test="count($productList) = 1">
+        <xsl:value-of
+          select="number(substring-after($productList[1]/Price,'$'))"/>
+      </xsl:when>
+      <xsl:when test="$productList">
+        <xsl:variable name="halfIndex"
+          select="floor(count($productList) div 2)"/>
+        <xsl:variable name="recursive_result1">
+          <xsl:call-template name="priceSumDivideAndConquer">
+            <xsl:with-param name="productList"
+              select="$productList[position() &lt;= $halfIndex]"/>
+          </xsl:call-template>
+        </xsl:variable>
+        <xsl:variable name="recursive_result2">
+          <xsl:call-template name="priceSumDivideAndConquer">
+            <xsl:with-param name="productList"
+              select="$productList[position() &gt; $halfIndex]"/>
+          </xsl:call-template>
+        </xsl:variable>
+      <xsl:value-of select="$recursive_result1 + $recursive_result2"/>
+    </xsl:when>
+    <xsl:otherwise><xsl:value-of select="0"/></xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
+[/cc]
+Операция сложения происходит каждый раз, когда разделённый список достигает длины 1 (это является условием выхода), и производится до того, как какая-нибудь обработка произойдёт со второй частью листа. При использовании этой техники глубина рекурсии никогда не превысит log<sub>2</sub> от количества элементов в списке, что, конечно, экспоненциально увеличивает возможное число товаров в списке для этого подсчёта.</p>
+<h3><strong>Оптимизация рекурсии 2. Сегментация</strong></h3>
+
+<p>Несмотря на невероятную экономию глубины рекурсии, обеспеченные методом &quot;Разделяй и властвуй&quot;, у него действительно есть недостатки. Для списков длиной не выражается числом степени двойки, этот способ излишне накладный на концах рекурсионного дерева.</p>
+<p>Другой подход, который похоже уменьшает глубину рекурсии, работающий на итерациях через сегменты узлов предопределённой длины, предпочтительнее, чем деление узлов надвое каждый раз. Этот подход построен на базовой рекурсивной методике, но представлен внешним шаблоном, который действует как менеджер сегментации.</p>
+<p>Роль менеджера сегментации состоит в том, чтобы разбить большую задачу на маленькие, которые могут быть проработаны без появления утечек памяти. Менеджер хранит результаты этих маленьких заданий и в тот момент, когда они все завершены, выполняет необходимую операцию над этими результатами.</p>
+<p>Вы можете видеть пример техники Сегментации в шаблоне <em>Распечатки 8</em>, который берёт список узлов и длину сегмента и использует оригинальный шаблон для цен на этих маленьких частях.</p>
+<p><em>Распечатка 8. Обход узлов с использованием техники сегментации</em>
+[cc lang=&quot;xml&quot;]</p>
+<p><xsl:template name="priceSumSegmented">
+  <xsl:param name="productList"/>
+  <xsl:param name="segmentLength" select="5"/>
+  <xsl:choose>
+    <xsl:when test="count($productList) > 0">
+      <xsl:variable name="recursive_result1">
+        <xsl:call-template name="priceSum">
+          <xsl:with-param name="productList"
+            select="$productList[position() <= $segmentLength]"/>
+        </xsl:call-template>
+      </xsl:variable>
+      <xsl:variable name="recursive_result2">
+        <xsl:call-template name="priceSumSegmented">
+          <xsl:with-param name="productList"
+            select="$productList[position() > $segmentLength]"/>
+        </xsl:call-template>
+      </xsl:variable>
+      <xsl:value-of select="$recursive_result1 + $recursive_result2"/>
+    </xsl:when>
+    <xsl:otherwise><xsl:value-of select="0"/></xsl:otherwise>
+  </xsl:choose> 
+</xsl:template>
+[/cc]
+Использование подхода Сегментации лучше, чем подхода &quot;Разделяй и властвуй&quot; уменьшает накладные расходы в большинстве случаев, но не предлагает особенной выгоды по глубине рекурсии. Какой же следует использовать? Ответ - как вы можете увидеть по следующей оптимизации - оба.</p>
+<h3><strong>Оптимизация рекурсии 3. Сочетание Сегментации и &quot;Разделяй и властвуй&quot;</strong></h3>
+
+<p>Вы можете объединить техники &quot;Разделяй и властвуй&quot; и Сегоментации, чтобы</p>
+<ol>
+  <li>увеличить экномию за счёт снижения глубины рекурсии (включая накладную обработку, связанную 
+с каждый добавлением уровня используемой рекурсии)</li>
+  <li>избежать накладных расходов на уровне листочков рекурсионного дерева</li>
+</ol>
+
+<p>В этом способе пороговый уровень передаётся в рекурсивный шаблон, через список узлов (или другие данные, которыми опрерируют). Здесь &quot;Разделяй и властвуй&quot; изменён, чтобы работать как менеджер сегментации. Если размер переданного списка больше, чем пороговое значение, список делится надвое и шаблон рекурсивно вызывается для обеих половин. Другими словами, вы используете основной рекурсивный шаблон, чтобы вычислять результаты, как и в Сегментации.
+<em>Распечатка 9</em> показывает этот способ на следующих XSL-шаблонах.</p>
+<p><em>Распечатка 9. Обход узлов с использованием составной техники &quot;Разделяй и властвуй&quot; и Сегментации</em>
+[cc lang=&quot;xml&quot;]</p>
+<p><xsl:template name="priceSumCombination">
+  <xsl:param name="productList"/>
+  <xsl:param name="threshold" select="5"/>
+  <xsl:choose>
+    <xsl:when test="count($productList) > $threshold">
+      <xsl:variable name="halfIndex"
+        select="floor(count($productList) div 2)"/>
+      <xsl:variable name="recursive_result1">
+        <xsl:call-template name="priceSumCombination">
+          <xsl:with-param name="productList"
+            select="$productList[position() <= $halfIndex]"/>
+        </xsl:call-template>
+      </xsl:variable>
+      <xsl:variable name="recursive_result2">
+        <xsl:call-template name="priceSumCombination">
+          <xsl:with-param name="productList"
+            select="$productList[position() > $halfIndex]"/>
+        </xsl:call-template>
+      </xsl:variable>
+      <xsl:value-of select="$recursive_result1 + $recursive_result2"/>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:call-template name="priceSum">
+        <xsl:with-param name="productList" select="$productList"/>
+      </xsl:call-template>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
+[/cc]</p>
+<h3><strong>Оптимизация рекурсии 4. Tail Recursion</strong></h3>
+
+<p>У вас уже есть какой-то опыт по отношению к рекурсии и вы, возможно, удивлены, почему метод Tail Recursion не первый в способах оптимизации, с тех пор как этот способ может устранить глубокую рекурсию полностью без каких-либо накладных расходов. Несмотря на преимущества, которые этот способ предлагает, он требует, чтобы XSLT-процессор, производя эту трансформацию, распознавал присутствие этой техники в XSL-коде и изменял бы своё поведение для обеспечения этой техники. К сожалению, большинство XSL-процессоров не предлагают такую возможность.</p>
+<p>Хорошая новость состоит в том, что непомерное одобрение XSL в бизнесе и научном мире означает, что это ограничение просуществует недолго. По этой причине для разработчиков важно понимать, как происходит отрубание хвоста, как оно может исключить проблемы с памятью без задерживания представления в любом достойном виде.</p>
+<p>Основная идея Tail Recursion - это избавление от хранения какой-либо статической информации в рекурсивных шагах. Вся информация, которая нужна, на каждом шаге передаётся как параметры функции вместо того, чтобы храниться на более высоком уровне в стеке рекурсии. Это позволяет XSLT-процессору работать с рекурсивной функцией как с циклом в процедурном языке.</p>
+<p>Взгляните на <em>Распечатку 1</em>0 примера с ценами с Tail Recursion.</p>
+<p>Распечатка 10. Проход по узлам с использованием Tail Recursion
+[cc lang=&quot;xml&quot;]</p>
+<p><xsl:template name="priceSumTail">
+  <xsl:param name="productList"/>
+  <xsl:param name="result" select="0"/>
+  <xsl:choose>
+    <xsl:when test="$productList">
+      <xsl:call-template name="priceSumTail">
+        <xsl:with-param name="productList"
+          select="$productList[position() > 1]"/>
+        <xsl:with-param name="result"
+          select="$result + 
+                  number(substring-after($productList[1]/Price,'$'))"/>
+      </xsl:call-template>
+    </xsl:when>
+    <xsl:otherwise><xsl:value-of select="$result"/></xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
+[/cc]
+Прибавление дополнительного значения переменной создаёт всю разницу. Вместо накомления чисел для сложения на разных рекурсивных шагах, сложение производится на каждом этапе и результат передаётся дальше как параметр для следующего шага рекурсии. Токовый XSLT-процессор просто перезаписывает участок памяти, содержащий значение переменной, при каждом вызове так же, как эта переменная перезаписывалась бы в случае Java или C кода. Этот способ позволяет языку пользоваться преимуществами и декларативных, и императивных языков без изменения сути XSLT как языка программирования.</p>
+<p><h2><strong>Заключение</strong></h2>
+Как только вы поняли рекурсию, декларативный стиль программирования на XSLT будет не препятствием, а эффективным путем расширения возможностей преобразования XML. Остаётся единственный вопрос - какой тип рекурсии лучший для каждой отдельно взятой ситуации.</p>
+<p>Вообще, задачи, работающие для малых объёмов данных, не требуют применения какой-либо из этих оптимизационных техник. Хотя, если малость объёма данных не гарантирована, выбор ограничен технологией, используемой в преобразовании. Если ваш XSLT-процессор распознаёт Tail Recursion, то лучше всего использовать этот способ. Если вы не можете убедиться, что преобразовательня технология умеет распознавать Tail Recursion, то наиболее предпочтительна комбинированная техника. Пороговое значение обычно лежит в диапазоне от 5 до 30 в зависимости от задачи.</p>
+<p>Поначалу рекурсия может быть трудной для понимания идеей, но её полезность и элегантность становятся яснее по мере использования.</p>
+]]></description>
+            <link>http://varya.me//ru/issues/xslt-recursion</link>
+            <guid isPermaLink="true">http://varya.me//ru/issues/xslt-recursion</guid>
+            <dc:creator><![CDATA[Varya Stepanova]]></dc:creator>
+            <pubDate>Mon, 31 Aug 2009 19:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

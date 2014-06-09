@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Untitled RSS Feed]]></title>
+        <description><![CDATA[Untitled RSS Feed]]></description>
+        <link>http://varya.me/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 26 May 2014 19:43:44 GMT</lastBuildDate>
+        <atom:link href="http://varya.me//rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 26 May 2014 19:43:32 GMT</pubDate>
+        <item>
+            <title><![CDATA[Articles and talks]]></title>
+            <description><![CDATA[<ul>
+<li><a href="http://bem.info/tutorials/articles/bem-js-tutorial/">Tutorial on JavaScript components with
+i-bem.js</a><br/>
+This set of well-explained examples demonstrates how to create JavaScript
+components using the basic features of <code>i-bem.js</code>.
+Этот туториал по созданию JavaScript-компонент с фреймворком
+<code>i-bem.js</code> подробно описывает его базовые возможности.<ul>
+<li><a href="https://vimeo.com/66474705">The thinking behind BEM</a><br/>
+The talk at <a href="http://2013.front-trends.com/">Front-Trends 2013</a>  gives a birds-eye
+view of the sometimes surprising ideas behind BEM, and the benefits they offer
+developers.</li>
+<li><a href="http://hasgeek.tv/metarefresh/2013/496-maintainable-frontend-development-with-bem">Maintainable Frontend Development with
+BEM</a><br/>
+This is a talk given at <a href="http://metarefresh.in/2013/">Metarefresh</a> on 23
+February 2013 in
+Bangalore (India). It shows how BEM helps to keep web interfaces
+easy-to-maintain and fast-to-develop.</li>
+<li><a href="http://bem.info/articles/start-with-project-stub/">Quick start with full BEM
+stack</a><br/>
+This tutorial shows how to run a BEM-project and enjoy helpful <code>bem tools</code>,
+efficient <code>BEMHTML</code> templates and declarative JavaScript <code>i-bem.js</code>.</li>
+<li><a href="https://vimeo.com/53219242">What you can borrow from Yandex frontend
+dev</a><br/>
+The talk about BEM at <a href="http://webconf.lv/">WebConf Riga</a> on 10 November 2012.
+Here it&#39;s explained at length what is BEM in terms of CSS. BEM-styled JavaScript
+is also mentioned as well as some nice tools for frontend development.<br/>
+This content is also available as an <a href="http://bem.info/articles/yandex-frontend-dev/">article &quot;What you can borrow from Yandex frontend
+dev&quot;</a>.</li>
+<li><a href="https://vimeo.com/51897014">Frontend evolution at Yandex</a><br/>
+Full 7-year evolution of BEM in 10 minutes. This is in the talk at Fronteers Jam
+Session, October 2012 in Amsterdam.</li>
+<li><a href="http://coding.smashingmagazine.com/2012/04/16/a-new-front-end-methodology-bem/">A New Frontend Methodology:
+BEM</a><br/>
+The first article about BEM in English.</li>
+<li><a href="https://vimeo.com/38346573">How to use BEM! outside Yandex</a><br/>
+Sceencast based on my talk at Yandex.Saturday Conferece on 25 February 2012 in
+Chelyabinsk (Russia). Says that every team can enjoy BEM and improve its work.
+Inside you can find examples of using BEM with Haml and Django.</li>
+</ul>
+</li>
+</ul>
+]]></description>
+            <link>http://varya.me//en/content</link>
+            <guid isPermaLink="true">http://varya.me//en/content</guid>
+            <pubDate>Sun, 25 May 2014 15:29:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Статьи и презентации]]></title>
+            <description><![CDATA[<ul>
+<li><a href="http://ru.bem.info/tutorials/articles/bem-js-tutorial/">Пошаговое руководство по
+i-bem.js</a><br/>
+Этот туториал по созданию JavaScript-компонент с фреймворком
+<code>i-bem.js</code> подробно описывает его базовые возможности.<ul>
+<li><a href="https://vimeo.com/66474705">The thinking behind BEM</a><br/>
+Выступление на <a href="http://2013.front-trends.com/">Front-Trends 2013</a> о необычных
+технических решениях БЭМ-стека и о том, какую пользу они могут принести
+разработчикам.</li>
+<li><a href="http://hasgeek.tv/metarefresh/2013/496-maintainable-frontend-development-with-bem">Maintainable Frontend Development with
+BEM</a><br/>
+Выступление на конференции <a href="http://metarefresh.in/2013/">Metarefresh 2013</a> в
+Бангалоре (Индия) о том как БЭМ влияет на цикл разработки и решает проблемы
+поддержки продукта.</li>
+<li><a href="http://bem.info/articles/start-with-project-stub/">Quick start with full BEM
+stack</a><br/>
+Пошаговый туториал о том как начать делать проект на БЭМ с использованием <code>bem
+tools</code>, шаблонов <code>BEMHTML</code> и декларативного JavaScript <code>i-bem.js</code>.<br/>
+Есть вариант на русском языке на Хабрахабре: <a href="http://habrahabr.ru/post/162385/">Попробуй БЭМ на 
+вкус!</a></li>
+<li><a href="https://vimeo.com/53219242">What you can borrow from Yandex frontend
+dev</a><br/>
+Рассказ о БЭМ на конференции <a href="http://webconf.lv/">WebConf Riga</a> 10 ноября 2012.
+Здесь подробно объясняется, что такое БЭМ в CSS, упоминается о БЭМ для
+JavaScript, сделан обзор инструментов.<br/>
+Также доступно в виде <a href="http://bem.info/articles/yandex-frontend-dev/">статьи &quot;What you can borrow from Yandex frontend
+dev&quot;</a>.</li>
+<li><a href="https://vimeo.com/51897014">Frontend evolution at Yandex</a><br/>
+История БЭМ за 10 минут! Презентация на Fronteers Jam Session в октябре 2012.</li>
+<li><a href="http://events.yandex-team.ru/events/yasubbotnik/msk-sep-2012/talks/324/">БЭМ и JavaScript: Сборник
+рецептов</a><br/>
+Презентация JavaScript по БЭМ на Яндекс.Субботнике 8 сентября 2012 в Москве.
+Разбор задач из реальной жизни настоящих проектов Яндекса.</li>
+<li><a href="http://coding.smashingmagazine.com/2012/04/16/a-new-front-end-methodology-bem/">A New Frontend Methodology:
+BEM</a><br/>
+Первая статья о <a href="http://bem.info">БЭМ</a> на английском языке.</li>
+<li><a href="https://vimeo.com/40928087">История одной кнопки</a><br/>
+Презентация на конференции РИТ 2012. Подробный рассказ об CSS и JavaScript
+реализации маленького контрола.</li>
+<li><a href="https://vimeo.com/37533949">Как использовать БЭМ вне Яндекса</a><br/>
+Выступление на Яндекс.Субботнике в Челябинске 25 февраля 2012 года. Любая
+команда может воспользоваться преимуществами БЭМ и улучшить свою работу. В
+презентации показаны БЭМ для Haml и БЭМ для Django проектов.<br/>
+Этот же доклад на английском в виде скринкаста: <a href="https://vimeo.com/38346573">How to use BEM! outside
+Yandex</a></li>
+<li><a href="http://clubs.ya.ru/bem/replies.xml?item_no=1154">JavaScript в
+БЭМ-терминах</a><br/>
+Мастер-класс на YAC 2011.</li>
+<li><a href="http://clubs.ya.ru/bem/replies.xml?item_no=1152">Дом из готовых кирпичей. Использование библиотеки
+bem-bl</a><br/>
+Мастер-класс на YAC 2011.</li>
+</ul>
+</li>
+</ul>
+]]></description>
+            <link>http://varya.me//ru/content</link>
+            <guid isPermaLink="true">http://varya.me//ru/content</guid>
+            <pubDate>Sun, 25 May 2014 15:29:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[About me]]></title>
+            <description><![CDATA[<p>I am a front-end developer originally from the Utmost North
+(<a href="http://maps.yandex.com/-/CVR3nIPf">Petrozavodsk</a>,
+Karelia); currently living in Amsterdam and working for
+TMG Online.<br/>
+Before, I had been living in
+<a href="http://images.yandex.com/yandsearch?text=Moscow">Moscow</a>, Russia for 5 years
+and working for
+<a href="http://www.yandex.com/">Yandex</a>.<br/>
+According to official papers, my name is <code>Varvara Stepanova</code>, although most people just call me <code>Varya</code>.</p>
+<p>More than 4 years I am a member of
+the <a href="http://bem.info/">BEM</a> team.
+Our mission is to open source the full technological stack that powers the Yandex UI framework.
+Being a remote BEM developer I use the solutions in my current work and personal
+projects.</p>
+<p>Besides the actual development of components, libraries and tools, I frequently speak at tech
+conferences, usually explaining the BEM methodology. I write articles in English and Russian, as well as
+tutorials and training projects to help developers perform their first dive into
+BEM.
+There are some links on the <a href="en/content/">content</a> page for your browsing pleasure.</p>
+<p>I am keen on traveling and dream of having friends all over the world.
+If you&#39;re interested, here&#39;s the first personal thing to learn about me: I am passionate about cats, all of them (lions included).</p>
+<p>On this site I publish my day-to-day writings as well as links to
+articles, projects and presentations.</p>
+<p>This site is available in both English and <a href="/ru">Russian</a>.</p>
+<p>Here are some obligatory (but useful) links as well:</p>
+<ul>
+<li><a href="https://github.com/varya">Github</a></li>
+<li><a href="https://twitter.com/toivonens">Twitter</a></li>
+<li><a href="http://www.linkedin.com/pub/varvara-stepanova/30/72a/96b">LinkedIn</a></li>
+</ul>
+]]></description>
+            <link>http://varya.me//</link>
+            <guid isPermaLink="true">http://varya.me//</guid>
+            <pubDate>Sun, 25 May 2014 15:29:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Обо мне]]></title>
+            <description><![CDATA[<p>Я разработчик интерфейсов (фронтендер) из
+<a href="http://maps.yandex.ru/-/CVR3n8za">Петрозаводска</a>
+(Карелия); сейчас живу в Амстердаме, работаю в TMG Online.<br/>
+До этого я 5 лет жила в Москве и работала в
+<a href="http://company.yandex.ru/">Яндексе</a>.<br/></p>
+<p>Больше 4х лет я в команде <a href="http://bem.info/">БЭМ</a>.
+Мы выносим в open source полный стек технологических решений общепортального
+интерфейсного фреймворка Яндекса. Как внешний разработчик БЭМ, я применяю
+эти решения в своей работе и личных проектах.</p>
+<p>Я занимаюсь разработкой библиотек блоков, инструментов и, кроме того, часто
+выступаю на технических конференциях, представляя БЭМ. Я пишу статьи на русском
+и английском, а также туториалы и обучающие проекты, чтобы помогать людям
+разобраться с БЭМ и впустить его в свою жизнь.
+Кое что из этого вы можете найти на странице <a href="content/">статьи и презентации</a>.</p>
+<p>Я люблю путешествовать и мечтаю о друзьях со всего света. Также вам стоит знать,
+что я люблю котиков (в том числе и очень больших).</p>
+<p>Здесь на этом сайте вы можете найти мои заметки, статьи, ссылки на проекты и
+презентации.</p>
+<p>Сайт доступен как на русском, так и <a href="/">на английском</a>.</p>
+<p>И, традиционный список ссылочек:</p>
+<ul>
+<li><a href="https://github.com/varya">Github</a></li>
+<li><a href="https://twitter.com/toivonens">Twitter</a></li>
+<li><a href="http://www.linkedin.com/pub/varvara-stepanova/30/72a/96b">LinkedIn</a></li>
+</ul>
+]]></description>
+            <link>http://varya.me//ru</link>
+            <guid isPermaLink="true">http://varya.me//ru</guid>
+            <pubDate>Sun, 25 May 2014 15:29:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Blog]]></title>
+            <link>http://varya.me//en/posts</link>
+            <guid isPermaLink="true">http://varya.me//en/posts</guid>
+            <pubDate>Sun, 25 May 2014 15:29:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Блог]]></title>
+            <link>http://varya.me//ru/posts</link>
+            <guid isPermaLink="true">http://varya.me//ru/posts</guid>
+            <pubDate>Sun, 25 May 2014 15:29:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Простые числа и XPath]]></title>
+            <description><![CDATA[<p>Иногда мы на работе решаем интересные задачки. Вот, например, одна (почти первая) в постановке <a href="http://alpha-san.ya.ru/"><span style="color: #000000;"><strong><span style="color: #ff0000;">n</span>op`а</strong></span></a>:</p>
+<excerpt/>
+
+<p><strong>Частный случай:</strong>
+Дан такой xml: 
+[cc lang=&quot;xml&quot;]</p>
+<p><items>
+   <item>1</item>
+   <item>2</item>
+   ...
+   <item>N-1</item>
+   <item>N</item>
+</items> 
+[/cc]
+т.е. выписаны все натуральные числа от 1 до N включительно. Про N ничего заранее не известно --
+большое, маленькое, еще какое-то &mdash; мы не знаем. </p>
+<p>Нужно. Написать <strong>xpath</strong>, выбирающий все item&#39;ы с простыми числами.
+Подчеркиваю - <strong>xpath</strong>.
+Т.е. внутри тега xsl:stylesheet должен быть один примерно такой шаблон:</p>
+<p>[cc lang=&quot;xslt&quot;]</p>
+<p><xsl:template match="/">
+   <xsl:copy-of select="......."/>
+</xsl:template>
+[/cc]</p>
+<p>и больше ничего &mdash; ни переменных, ни других шаблонов, ни функций.</p>
+<p>На выходе будет что-то типа:</p>
+<p>[cc lang=&quot;xml&quot;]</p>
+<p><item>2</item></p>
+<p><item>3</item></p>
+<p><item>5</item></p>
+<p><item>7</item>
+... 
+[/cc]</p>
+<p>Решение следующее:</p>
+<p>[cc lang=&quot;xslt&quot;]</p>
+<p><xsl:template match="/">
+       <items>
+           <xsl:copy-of select="items/item[not(preceding-sibling::item[(last() + 1) mod . = 0 and . != 1]) and . != 1]"/>
+       </items>
+</xsl:template> 
+[/cc]</p>
+<p><strong>Общая задача</strong>
+Усложненный вариант &mdash; все тоже самое, но в xml просто набор item&#39;ов с какими-то натуральными числами
+в каком-то порядке, например:
+[cc lang=&quot;xml&quot;]</p>
+<p><items>
+   <item>142</item>
+   <item>73</item>
+   <item>10000341</item>
+   <item>10</item>
+   ...
+</items> 
+[/cc]</p>
+<p>Решение:
+[cc lang=&quot;xslt&quot;]</p>
+<p><xsl:template match="/">
+       <items>
+           <xsl:copy-of select="items/item[not(
+               str:tokenize(str:padding(. - 1, '1'), '')[(last() + 1 ) mod position()= 0 and position() != 1]
+           )
+           and . != 1]"/>
+       </items>
+</xsl:template>
+[/cc]
+Чтобы понять, что тут делается, надо прочитать про функции <a href="http://exslt.org/str/functions/padding/index.html">padding</a> и <a href="http://exslt.org/str/functions/tokenize/index.html">tokenize</a> на EXSLT.org.</p>
+]]></description>
+            <link>http://varya.me//ru/issues/xpath-prime-numbers</link>
+            <guid isPermaLink="true">http://varya.me//ru/issues/xpath-prime-numbers</guid>
+            <pubDate>Mon, 20 Jul 2009 19:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[XSLT - результативные технологии программирования]]></title>
+            <description><![CDATA[<p>Перевод документа <a href="a
+href=&quot;http://www.xml.org/sites/www.xml.org/files/xslt_efficient_programming_techniques.pdf&quot;">a
+href=&quot;http://www.xml.org/sites/www.xml.org/files/xslt_efficient_programming_techniques.pdf&quot;</a>XSLT</p>
+<ul>
+<li>Efficient Programming Techniques</a>, который мне очень помог.</li>
+</ul>
+<p>С ростом популярности XML как средства взаимодействия с различными системами,
+все больше и больше организаций приходят к XML, чтобы решить свои вопросы
+функциональной совместимости.<excerpt/> Вместе с попытками архитекторов достигнуть ясного
+разделения между отображением и бизнес-логикой, XSLT становится важнее. XSL, по
+сути, - это XML-документ (дерево, согласно спецификации DTD), который
+применяется к древовидным структурам данных (XML-документ), чтобы выработать
+результирующее дерево.</p>
+<p>Эта статья представляет список лучших приемов, используемых для написания
+XSLT-преобразований. Эта статья может быть использована как направление к
+лучшему пути достижения нужных результатов в XSL. Она предназначается для
+разработчиков, которые знакомы с основами XSL, но нуждаются в указателе на
+действенный путь программирования на XSL. Информация в этой статье основана на
+моём собственном опыте в XML и XSL. Список лучших приемов составлен по различным
+источникам, чтобы сделать всеобъемлющий документ, который будет расти, если
+найдётся больше хороших приемов. Если у вас есть несколько очень хороших
+приёмов, которым вы следуете и которых нет в этом списке, скиньте мне на email
+<em><a href="mailto:pboundre@gr.com">pboundre@gr.com</a></em>.</p>
+<p><h2>Подключение внешних файлов - правильный путь</h2>
+Есть три способа включения внешних файлов в ваш xsl:</p>
+<p>Если у вас есть дополнительные HTML-файлы, которые вы хотите включить в ваш
+результат без изменений, возможно самый простой путь получить его в вашем
+результирующем дереве - это включить его как внешнюю синтаксическую сущность
+(entity) в преобразование. Это влечет за собой объявление сущности и
+обращение к ней в вашем преобразовании.</p>
+<p> <strong><code>header.html</code>:</strong><br/>
+{% highlight html %}</p>
+<p><table>
+  <tr>
+    <td><a href="/">Home</a></td>
+    <td><a href="/movies/">Movies</a></td>
+    <td><a href="/shop/">Shop</a></td>
+  </tr>
+</table>
+{% endhighlight %}</p>
+<p><strong><code>data.xsl</code>:</strong><br/>
+{% highlight xml %}
+&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;!DOCTYPE xsl:stylesheet [
+<!-- declares header.html as an external parsed entity
+-->
+&lt;!ENTITY header SYSTEM &quot;header.html&quot;&gt;
+]&gt;</p>
+<p><xsl:stylesheet version="1.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:template match="/">
+        <html>
+            <head><title>People</title></head>
+            <body>
+            <!-- includes header.html directly -->
+            &header;
+            <xsl:apply-templates />
+            </body>
+        </html>
+    </xsl:template>
+</xsl:stylesheet>
+{% endhighlight %}</p>
+<p> Или у вас есть дополнительные XML-файле, которые вы хотели бы преобразовать и
+ включить в документ, над которым вы работаете.<br/>
+Если у вас есть XML-файл, который вы хотели бы включить в результат, вам нужно
+использовать функцию <code>document()</code>, чтобы поучить доступ к информации, и вам нужны
+шаблоны в вашем преобразовании, чтобы обработать их и включить в результирующее
+дерево:</p>
+<p><strong><code>header.xml</code>:</strong><br/>
+{% highlight xml %}</p>
+<p><menu>
+    <item href="/">Home</item>
+    <item href="/movies/">Movies</item>
+    <item href="/shop/">Shop</item>
+</menu>
+{% endhighlight %}</p>
+<p><strong><code>data.xsl</code>:</strong><br/>
+{% highlight xml %}
+&lt;?xml version=&quot;1.0&quot;?&gt;</p>
+<p><xsl:stylesheet version="1.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:template match="/">
+        <html>
+            <head><title>People</title></head>
+            <body>
+                <!-- applies templates to the information contained in
+                header.xml -->
+                <xsl:apply-templates select="document('header.xml')"/></p>
+<pre class="highlight"><code class="hljs xml">            <span class="hljs-comment">&lt;!-- applies templates to the input file --&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">xsl:apply-templates</span> /&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">xsl:template</span>&gt;</span>
+
+<span class="hljs-comment">&lt;!-- transforms the XML in header.xml into the table we want --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">xsl:template</span> <span class="hljs-attribute">match</span>=<span class="hljs-value">"menu"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">table</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">tr</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">xsl:for-each</span> <span class="hljs-attribute">select</span>=<span class="hljs-value">"item"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-title">td</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"{@href}"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">xsl:value-of</span> <span class="hljs-attribute">select</span>=<span class="hljs-value">"."</span>/&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-title">xsl:for-each</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">tr</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">table</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">xsl:template</span>&gt;</span>
+</code></pre><p></xsl:stylesheet>
+{% endhighlight %}</p>
+<p>Или же у вас есть внешние дополнительные XSLT-файлы, которые вы бы хотели
+использовать, чтобы формировать результирующее дерево:<br/>
+Пусть у вас есть входящий XML-документ, который включает включает некоторую
+информацию, нужную вам как и остальные данные на странице, вы захотите
+импортировать (import) или включить (include) преобразования для них, так чтобы
+шаблоны, определённые в них использовались будто они часть основного
+преобразования. То, что вам нужно: <code>xsl:import</code> или <code>xsl:include</code> - зависит от того,
+хотите ли вы переопределять шаблоны (или часть из них), которые заданы во
+включаемом преобразовании. Если хотите, используйте xsl:import, в противном
+случае - <code>xsl:include</code>.</p>
+<p><strong><code>data.xml</code>:</strong><br/>
+{% highlight xml %}
+&lt;?xml version=&quot;1.0&quot;?&gt;</p>
+<p><doc>
+    <menu>
+        <item href="/">Home</item>
+        <item href="/movies/">Movies</item>
+        <item href="/shop/">Shop</item>
+    </menu>
+    <people>
+        <person age="50" name="larry"/>
+        <person age="50" name="larry"/>
+    </people>
+</doc>
+{% endhighlight %}</p>
+<p><strong><code>header.xsl</code>:</strong><br/>
+{% highlight xml %}
+&lt;?xml version=&quot;1.0&quot;?&gt;</p>
+<p><xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:template match="menu">
+        <table>
+            <tr>
+                <xsl:for-each select="item">
+                     <td><a href="{@href}"><xsl:value-of select="." /></a></td>
+                 </xsl:for-each>
+              </tr>
+          </table>
+      </xsl:template>
+</xsl:stylesheet>
+{% endhighlight %}</p>
+<p><strong><code>data.xsl</code>:</strong><br/>
+{% highlight xml %}
+&lt;?xml version=&quot;1.0&quot;?&gt;</p>
+<p><xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<!-- includes the templates from theheader.xsl stylesheet --></p>
+<pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">xsl:include</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"header.xsl"</span> /&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-title">xsl:template</span> <span class="hljs-attribute">match</span>=<span class="hljs-value">"/"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">html</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">title</span>&gt;</span>People<span class="hljs-tag">&lt;/<span class="hljs-title">title</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+            <span class="hljs-comment">&lt;!-- applies templates to the menu definition to create the
+            header - the templates come from header.xsl --&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">xsl:apply-templates</span> <span class="hljs-attribute">select</span>=<span class="hljs-value">"doc/menu"</span> /&gt;</span>
+            <span class="hljs-comment">&lt;!-- applies templates to the data to create the rest of the
+            document --&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">xsl:apply-templates</span> <span class="hljs-attribute">select</span>=<span class="hljs-value">"doc/people"</span> /&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+     <span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">xsl:template</span>&gt;</span>
+  ...
+</code></pre><p></xsl:stylesheet>
+{% endhighlight %}</p>
+<p>Вам также стоит иметь преобразование, включающее шаблоны для видоизменения
+информации в что-то, что вам нужно.</p>
+<h2 id="-xsl-patterns-">Используйте XSL шаблоны проектирования (patterns)</h2>
+<h3 id="-">Метод Кая для нахождения пересечения, разности и дизъюнкции множеств</h3>
+<p>Единственная операция над множествами, предоставляемая XSLT, - это объединение.
+Оно может быть описано с использованием оператора объединения из XPath и XSLT -
+&quot;<code>|</code>&quot;. Можно выразить пересечение двух наборов узлов (node set) на чистом XPath.
+Этот способ был открыт Майклом Каем (Michael Kay) и известен как метод Кая
+(Kaysian method).</p>
+<p>{% highlight xml %}</p>
+<xsl:variable name="intersection" select="$ns[count(.|$ns2) = count ($ns2)]"/>
+
+<p><xsl:variable name="set-difference" select="$ns1[count(.|$ns2) != count($ns2)]"/>
+{% endhighlight %}</p>
+<p>Пример:<br/>
+{% highlight xml %}
+&lt;?xml version=&quot;1.0&quot;?&gt;</p>
+<p><xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:data="crane" version="1.0">
+    <xsl:output method="text"/>
+    <data:data> <!--data source for testing purposes-->
+        <item>1</item><item>2</item><item>3</item>
+        <item>4</item><item>5</item><item>6</item>
+    </data:data></p>
+<pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">xsl:template</span> <span class="hljs-attribute">match</span>=<span class="hljs-value">"/"</span>&gt;</span> <span class="hljs-comment">&lt;!--root rule--&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">xsl:variable</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">"ns1"</span> <span class="hljs-attribute">select</span>=<span class="hljs-value">"//item[position()&gt;1]"</span>/&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">xsl:variable</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">"ns2"</span> <span class="hljs-attribute">select</span>=<span class="hljs-value">"//item[position()&amp;lt;5]"</span>/&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-title">xsl:for-each</span> <span class="hljs-attribute">select</span>=<span class="hljs-value">"$ns1[count(.|$ns2)=count($ns2)]"</span>&gt;</span>
+        Intersection: <span class="hljs-tag">&lt;<span class="hljs-title">xsl:value-of</span> <span class="hljs-attribute">select</span>=<span class="hljs-value">"."</span>/&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">xsl:for-each</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-title">xsl:for-each</span> <span class="hljs-attribute">select</span>=<span class="hljs-value">"(
+                    $ns1[count(.|$ns2)!=count($ns2)] |
+                    $ns2[count(.|$ns1)!=count($ns1)]
+                    )"</span>&gt;</span>
+        Difference: <span class="hljs-tag">&lt;<span class="hljs-title">xsl:value-of</span> <span class="hljs-attribute">select</span>=<span class="hljs-value">"."</span>/&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">xsl:for-each</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">xsl:template</span>&gt;</span>
+</code></pre><p></xsl:stylesheet>
+{% endhighlight %}</p>
+<p>Результат:</p>
+<pre class="highlight"><code class="hljs http"><span class="hljs-attribute">Intersection</span>: <span class="hljs-string">2</span>
+<span class="hljs-attribute">Intersection</span>: <span class="hljs-string">3</span>
+<span class="hljs-attribute">Intersection</span>: <span class="hljs-string">4</span>
+<span class="hljs-attribute">Difference</span>: <span class="hljs-string">1</span>
+<span class="hljs-attribute">Difference</span>: <span class="hljs-string">5</span>
+<span class="hljs-attribute">Difference</span>: <span class="hljs-string">6</span>
+</code></pre><h3 id="-">Метод Вендела Пая для нерекурсивного цикла</h3>
+<p>Метод Вендела Пая (Wendell Pie) демонстрирует способ избежать XSLT-рекурсии при
+применении циклов.</p>
+<p>Пример:<br/>
+{% highlight xml %}</p>
+<p><Tag ID="1">
+    <Value>4</Value>
+</Tag></p>
+<p><Tag ID="2">
+    <Value>2</Value>
+</Tag>
+{% endhighlight %}</p>
+<p>Требующийся результат:<br/>
+{% highlight html %}</p>
+<p><TABLE>
+    <TR ID="1">
+        <TD> </TD>
+        <TD> </TD>
+        <TD> </TD>
+        <TD> </TD>
+    </TR>
+</TABLE></p>
+<p><TABLE>
+    <TR ID="2">
+        <TD> </TD>
+        <TD> </TD>
+    </TR>
+</TABLE>
+{% endhighlight %}</p>
+<p>Другими словами, я хочу создать набор новых узлов, количество которых основано
+на значении Value, содержащемся в документе. Ниже я представляю маленькое
+обобщение,  которое не  зависит от числа узлов в исходном XML-документе и
+использует вместо этого число узлов в преобразовании:</p>
+<p>{% highlight xml %}</p>
+<p><xsl:template match="TAG"></p>
+<p><TABLE>
+    <TR ID="@ID">
+        <xsl:for-each select="(document('')//*)[position() &lt;= Value]">
+            <TD> </TD>
+        </xsl:for-each>
+    </TR>
+</TABLE>
+</xsl:template>
+{% endhighlight %}</p>
+<p>Здесь используется количество элементов в преобразовании. Это количество будет
+значительно превышено, если мы будем проверять на разные типы узлов, например:</p>
+<p>{% highlight xml %}</p>
+<p><xsl:for-each select="($st//node()| $st//@* | $st//namespace::*) [position() &lt;= Value]">
+{% endhighlight %}</p>
+<p>где <code>$st</code> определено как  <code>document(&#39;&#39;)</code>, то есть корневой узел преобразования.</p>
+<h3 id="-">Метод условной выборки Оливера Беккера</h3>
+<p>Воможность XPath выбирать список узлов, основываясь на сложных условиях, очень
+мощная. Хотя ей недостаёт возможностей для определения строки как
+противоположного набору узлов. Вам часто нужно использовать навороченную
+xsl:choose конструкцию только чтобы определить, что-то вроде &quot;в случае 1
+используй строку 1, в случае 2 - строку 2, ..., в случае N - строку N.?</p>
+<p>Во всех таких случаях нам нужен способ, который позволил бы нам определять в
+XPath-выражении строку, которая зависит от условия или условий.</p>
+<p>Теперь о том, как это сделать:<br/>
+Мы хотим получить XPath-выражение, которое возвращает строку, когда некоторое
+заданное условие истинно, и возвращает пустую строку, если это условие ложно.
+Можно условиться, что true - это &quot;1&quot;, а false - это &quot;0&quot;. Но как подогнать &quot;1&quot; к
+какой-то строке? Какую функцию для работы со строкой мы могли бы использовать?
+<em>substring()</em> кажется достаточно удобной. А вот и трюк: мы можем
+использовать substring() только с двумя аргументами: substring(str, nOffset)
+возвратит остаток строки str, начинающийся с позиции nOffset.</p>
+<p>В частности:<br/></p>
+<ul>
+<li><code>substring(str, 1)</code> возвращает целую строку<br/></li>
+<li><code>substring(str, [очень большое число])</code> возвратит пустую строку, если это
+большое число гарантированно больше, чем длина строки.</li>
+</ul>
+<p>Таким образом, выражение, которое мы могли бы использовать, будет:</p>
+<p>{% highlight java %}
+concat(
+    substring( str1, exp( условие ) ),
+    substring( str2, exp( not(условие) ) )
+)
+{% endhighlight %}
+и мы хотим, чтобы <code>exp(условие)</code> было 1, если условие истинное и Infinity, если
+условие ложное.</p>
+<p>Мы выражаем exp(условие) так:
+<code>1 div условие</code>, потому что булево значение сначала преобразуется в число (true</p>
+<ul>
+<li>в 1, а false - в 0), мы получим в точности:</li>
+</ul>
+<p>{% highlight java %}
+exp(true) = 1
+exp(false) = Infinity
+{% endhighlight %}</p>
+<p>Итог:<br/>
+XPath-выражение, возвращающее одну строку, если условие истинно и другую, если
+оно ложно, такое:
+{% highlight java %}
+concat(
+    substring(Str1, 1 div условие),
+    substring(Str2, 1 div условие)
+)
+{% endhighlight %}
+Впервые это было использовано Оливером Беккером (Oliver Becker) и названо как
+метод Беккера.</p>
+<p>Например:<br/>
+Я хочу написать темплейт, который создаёт текст: &quot;My department&quot;,  если передан
+параметр &quot;IT&quot; и текст &quot;Some other department&quot;, если значение параметра другое.</p>
+<p>Конечно, никаких <code>xsl:if</code> или <code>xsl:when</code> не допускается.</p>
+<p>Пример кода:<br/>
+{% highlight xml %}
+&lt;?xml version=&quot;1.0&quot;?&gt;</p>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:data="crane" version="1.0">
+
+  <xsl:output method="text"/>
+
+<p>  <xsl:template match="/">
+    IT:
+    <xsl:call-template name="whoIs">
+      <xsl:with-param name="department" select="'IT'" />
+    </xsl:call-template>
+    <br/>
+    Finance:
+    <xsl:call-template name="whoIs">
+      <xsl:with-param name="department" select="'Finance'" />
+    </xsl:call-template>
+  </xsl:template></p>
+<p>  <xsl:template name="whoIs">
+    <xsl:param name="department" select="someDepartment" />
+    <br/>
+    <xsl:value-of select="
+      concat(
+        substring('My department', 1 div ($department = 'IT')),
+        substring('Some other department', 1 div not(($department = 'IT')))
+      )" />
+    <br/>
+  </xsl:template>
+</xsl:stylesheet>
+{% endhighlight %}</p>
+<h3 id="-">Используйте метод Мюнха для группировки</h3>
+<p>Группировка часто плохо осуществляется в XSL. Обычно эта задача возникает, когда
+вы получаете XML-вывод (несгруппированный) из базы данных и должны сгруппировать
+его средствами XSL. База данных обычно выдаёт вам результаты, структурированные
+согласно записям в ней. Например, давайте рассмотрим таблицу служащих, из
+которой получается такой XML:</p>
+<p>{% highlight xml %}
+<data>
+  <employee no="1">
+    <name>Prathit Bondre</name>
+    <department>IT</department>
+  </employee>
+  <employee no="2">
+    <name>Adheet Bondre</name>
+    <department>Finance</department>
+  </employee>
+  <employee no="3">
+    <name>Sinan Edil</name>
+    <department>IT</department>
+  </employee>
+  <employee no="4">
+    <name>Jeremy King</name>
+    <department>Finance</department>
+  </employee>
+</data>
+{% endhighlight %}</p>
+<p>Требуется такой вывод:</p>
+<pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">strong</span>&gt;</span>Finance<span class="hljs-tag">&lt;/<span class="hljs-title">strong</span>&gt;</span>
+Adheet Bondre
+Jeremy King
+
+<span class="hljs-tag">&lt;<span class="hljs-title">strong</span>&gt;</span>IT<span class="hljs-tag">&lt;/<span class="hljs-title">strong</span>&gt;</span>
+Prathit Bondre
+Sinan Edil
+</code></pre><p>Задача состоит в том, чтобы превратить этот плоский вывод в список,
+сгруппированный по департаментам, чтобы дать требуемый результат, который
+показан выше.</p>
+<p>Есть два шага на пути к решению:</p>
+<ul>
+<li>Узнать, какие департаменты существуют</li>
+<li>Получить всех служащих, которые относятся к одному департаменту</li>
+</ul>
+<p>Узнать, какие департаменты существуют, можно выбрав по одному сотруднику из
+каждого департамента в XML, который может с успехом быть первым, кто попадётся.
+Один способ найти их - это взять тех сотрудников, которые не относятся к
+департаменту из множества департаментов предыдущих сотрудников.</p>
+<p>{% highlight xml %}
+employee[not(department = preceding-sibling::employee/department)]
+{% endhighlight %}</p>
+<p>Определив таких сотрудников, легко найти их департаменты и собрать вместе всех
+сотрудников из одного и того же департамента:</p>
+<p>{% highlight xml %}</p>
+<p><xsl:apply-template select="data/employee[department = current()/department]"/>
+{% endhighlight %}</p>
+<p>Проблема этого метода в том, что он включает в себя два XPath-выражения,
+вычисление которых потребует много ресурсов для больших XML-документов. Поиск по
+всем предыдущим братьям с осью &#39;preceding-sibling&#39; занимает много времени, если
+вы ближе к конце записей. Кроме того, получение всех контактов определённых
+департаментов каждый раз включает в себя поиск одного сотрудника.</p>
+<h4 id="-">Метод Мюнха</h4>
+<p>Этот метод разработан Стивом Мюнхом (Steve Muench) для представления этих
+функций более эффективным способом с использованием ключей. Ключи работают путём
+назначения значения ключа узлу и дают прямой доступ к узлу через такое значение.
+Если элементов, у которых один и тот же ключ, много, то все эти элементы
+найдутся, когда вы воспользуетесь этим ключом. В сущности, это означает, что
+если вы хотите сгруппировать множество узлов согласно какому-то свойству узла,
+вы можете использовать ключи.</p>
+<p>В примере выше мы хотим сгруппировать сотрудников согласно их департаментам,
+поэтому мы создаём ключ, который назначает каждому сотруднику значение ключа,
+которое берётся из департамента этого сотрудника. Узлы, которые мы хотим
+сгруппировать должны быть подставлены в атрибут &quot;match&quot;. Значение ключа, которые
+мы хотим использовать записывается в атрибут &quot;use&quot;.</p>
+<p>{% highlight xml %}</p>
+<p><xsl:key name="employees-by-department" match="employee" use="department"/>
+{% endhighlight %}</p>
+<p>Однажды определив ключ, зная департамент, мы можем быстро получить доступ ко
+всем сотрудникам этого департамента.<br/>
+Например, ключ <code>key(&#39;employees-by-department&#39;, &#39;IT&#39;)</code> даст записи с
+департаментом &quot;IT&quot;.</p>
+<p>Однако, первое, что нам надо сделать,- это определить, какие бывают
+департаменты, что включает в себя нахождение первого сотрудника в XML для
+каждого департамента. Здесь мы снова можем использовать ключи. Мы знаем, что
+сотрудник будет частью списка узлов, которые можно получить по ключу данного
+департамента: вопрос в том, будет ли он первым в этом списке (который упорядочен
+как записи в XML-документе) или ниже? Нас интересуют только записи, идущие
+первыми в списке.<br/>
+Выяснение, является ли сотрудник первым в списке, возвращённом по ключу,
+подразумевает сравнение узла employee с первым узлом в списке. Этот способ также
+может быть использован для получения отдельных элементов в XML-файле. Есть пара
+характерных способов проверки, идентичны ли два узла:</p>
+<ul>
+<li>Сравнить уникальные идентификаторы, сгенерированные для узлов (используя
+<code>generate-id()</code>):</li>
+</ul>
+<p>{% highlight xml %}
+employee[generate-id() = generate-id(key(&#39;employees-by-department&#39;, department)[1])]
+{% endhighlight %}</p>
+<ul>
+<li>Посмотреть, сколько узлов включает в себя результат объединения двух узлов:
+один или два - узлы не могут повторяться во множестве, так что если там
+только один узел, то они должны быть одним и тем же узлом:</li>
+</ul>
+<p>{% highlight xml %}
+employee[count(.|key(&#39;employees-by-department&#39;, department)[1]) = 1]
+{% endhighlight %}</p>
+<p>Однажды определив группы, вы можете отсортировать их так, как вам нравится.
+Также вы можете отсортировать узлы в рамках группы так, как вы хотите. Вот
+шаблон, который создаёт результат, который мы описали, из XML, полученного из
+базы данных:</p>
+<p>{% highlight xml %}
+&lt;?xml version=&quot;1.0&quot;?&gt;</p>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<p>  <xsl:output method = "html" encoding="Windows-1252" />
+  <xsl:key name = "employees-by-department" match ="employee" use = "department" /></p>
+<p>  <xsl:template match="data">
+    <html>
+      <head></head>
+      <body>
+        <xsl:for-each select = "employee[count(.|key('employees-bydepartment',
+department)[1])=1]">
+          <xsl:sort select="department" />
+          <b><u><xsl:value-of select="department" /></u></b><br/>
+            <xsl:for-each select="key('employees-bydepartment',
+department)">
+              <xsl:sort select="name"/>
+              <xsl:value-of select="name" /><br/>
+            </xsl:for-each>
+          </xsl:for-each>
+        </body>
+      </html>
+  </xsl:template></p>
+<p></xsl:stylesheet>
+{% endhighlight %}</p>
+<p>Метод Мюнха обычно лучше использовать для группировки узлов из XML-документа,
+потому что он не подразумевает прохождения через большое число узлов, и поэтому
+он более эффективен. Он особенно полезен, когда у вас есть плоская выдача из
+базы данных, например, которую вам нужно преобразовать в какую-нибудь
+иерархичную структуру. Он может быть применён в любой ситуации, где нужно
+группировать узлы согласно их свойствам, которые можно получить через
+XPath.<br/>
+Обратная сторона состоит в том, что метод Мюнха будет работать только с
+XSLT-процессором, поддерживающим ключи. Вдобавок, использование ключей может
+быть достаточно затратным по памяти, потому что все узлы и их ключи хранятся в
+памяти. Наконец, может быть трудно использовать ключи, если узлы, которые вы
+хотите сгруппировать, получены из разных подключенных источников.</p>
+<h2 id="-xsl-import">Использование xsl:import</h2>
+<p>Используйте <code>&lt;xsl:import&gt;</code>, чтобы подключить общие, основные правила в
+преобразование, задуманное для определённых трансформаций. Если можете, не
+импортируйте больше шаблонов, чем вам нужно.</p>
+<h2 id="-html">Использование статического HTML</h2>
+<p>Для любых &quot;неизменных&quot; порций html на странице (таких как шапка, подвал,
+элементы навигации) определённо более эффективно хранить фрагменты как внешние
+xml-файлы и копировать их в результирующее дерево используя <code>xsl:copy-of</code> и
+функцию <code>document()</code>, чем использовать именованные шаблоны или <code>xsl:import</code>.</p>
+<h2 id="-call-apply-templates">Разница между call и apply templates</h2>
+<p>Call-template, в отличие от aplly-templates, не меняет контекстный (текущий)
+узел. И атрибут select имеет значение только в aplly-templates, и не имеет в
+call-template.</p>
+<h2 id="-">Повторное использование кода и рефакторинг</h2>
+<p>Проблема с использованием одного темплейта с множеством условий - это то, что
+очень быстро делает код отвратительным, нечитаемым и неподддерживаемым. Проблема
+многих шаблонов состоит в том, что вы часто дублируете код. Золотая середина -
+использовать много шаблонов, а при необходимости повторить код - вызывать
+именованные шаблоны, иногда с параметрами, если имеют место небольшие изменения,
+которые должны быть учтены. Именованные шаблоны похожи на подпрограммы или
+приватные методы.</p>
+<p>Например. Допустим, вы хотите обработать элементы item, имея один шаблон для
+узлов со значением атрибута type - &#39;Book&#39;, один - для &#39;CD&#39;, и один для всех
+остальных.</p>
+<p>{% highlight xml %}</p>
+<p><xsl:template match="item[@type='Book']"/></p>
+<p><xsl:template match="item[@type='CD']"/></p>
+<p><xsl:template match="item"/>
+{% endhighlight %}</p>
+<p>И они переопределят шаблон, привязанный к &quot;*&quot; (любой элемент). Шаблоны с более
+точной адресацией будут иметь более высокий приоритет для сопоставления.</p>
+<h2 id="-xsl-">Автоматизируйте XSL-документацию</h2>
+<p>Программисты обычно ненавидят документацию и поэтому обычно не пишут её.
+Javadocs в Java даёт большое утешение программистскому сообществу, обеспечивая
+способ автоматически генерировать документацию. Есть похожий инструмент, который
+написан для XSL и называется xsldoc. Его можно бесплатно скачать на
+<a href="http://www.xsldoc.org/">www.xsldoc.org</a>.<br/>
+Этот инструмент обеспечит автоматизированный, стандартизированный и надежный
+способ создания документации о ваших XSL-файлах, и поскольку он управляется из
+командной строки, то может стать частью процесса сборки.</p>
+<h2 id="-xslt-">Не изобретайте велосипед, используйте XSLT-библиотеку</h2>
+<p>XSLT-библиотека - это open source репозиторий XSL-шаблонов, которые были
+написаны и проверены. В библиотеке множество шаблонов для работы со строками,
+датами, обработки узлов и т.п., что может быть эффективно использовано в ваших
+xsl-файлах. Так что сэкономьте своё время с этой библиотекой. Её можно
+посмотреть по адресу <a href="http://xsltsl.sourceforge.net">http://xsltsl.sourceforge.net</a>.</p>
+<h2 id="-html-">Уменьшайте размер ваших HTML-документов</h2>
+<p>Уменьшайте размер вашего HTML, используя <code>indent=&quot;no&quot;</code> в теге
+<code>&lt;xsl:output/&gt;</code>. Этот атрибут сообщает XSLT-процессору не делать отступы в
+HTML-документе, что делает файлы меньше и они грузятся быстрее.</p>
+<p>{% highlight xml %}</p>
+<p><xsl:output method="html" indent="no"/>
+{% endhighlight %}</p>
+]]></description>
+            <link>http://varya.me//ru/issues/efficient_xslt_techniques</link>
+            <guid isPermaLink="true">http://varya.me//ru/issues/efficient_xslt_techniques</guid>
+            <pubDate>Mon, 24 Aug 2009 19:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Эффективное использование рекурсии в XSL]]></title>
+            <description><![CDATA[<p>Перевод статьи <a href="http://www.ibm.com/developerworks/xml/library/x-xslrecur/">Use recursion effectively in XSL</a>.
+Введение в XSL-рекурсию и приёмы для оптимизации её использования.</p>
+<p>Эффективное и рациональное использование XSL-преобразований требует понимания,
+как использовать XSL в качестве функционального языка, что означает понимание рекурсии.
+Эта статья знакомит с ключевыми идеями рекурсии и особенностей её использования
+в XSL.<excerpt/> Также объяснены приёмы для оптимизации преобразования XML и избегания ошибок
+при использовании рекурсии. Каждая идея или метод сопровождаются примерами кода.</p>
+<p>Сейчас в мире преобладают императивные языки программирования. Наиболее популярные языки - Java, C (и его различные виды), Visual Basic и другие - на высоком абстрактном уровне работают, в основном, одинаково: вы задаёте некоторые переменные, вызываете функции или операторы, которые меняют эти переменные, и возвращаете результат. Это сильное приближение к программированию, и это, конечно, не всё.</p>
+<p>Языки программирования другой породы, пока менее привычной, по крайней мере также сильны как их процедурные &quot;коллеги&quot;. Эти языки названы <em>функциональными</em> или <em>декларативными</em> языками. Программы, написанные на этих языках, могут только однажды определить переменные, и никогда не могут поменять хранимое значение однажды определённой переменной. Язык программирования XSL и функциональный, и декларативный. Это означает, что разработчики, привыкшие писать на Java или C, и изучающие XSL часто чувствуют себя не в своей тарелке, применяя самые передовые особенности XSL.</p>
+<p>Из-за роста важности как приложений, так и web-разработчиков и завязанности на XSL-технологию, эффективное использование XSL-преобразований не может быть проигнорировано. Так, наиболее важно научиться, как программировать в декларативной манере. Это подразумевает близкое знакомство с <strong>рекурсией</strong>, основанное на методах её эффективного использования и рационального решения текущих задач.</p>
+<h2><strong>Введение в рекурсию на примере</strong></h2>
+
+<p>Через использование рекурсивных функций декларативные языки способны предоставлять функциональность, подобную функциональности их императивных &quot;коллег&quot;. Это не значит, что императивные языки не могут использовать рекурсию. Большинство - могут. Разница в том, что декларативные языки используют рекурсию как основное средство деятельности, тогда как чаще всего это просто свойство в императивных языках. </p>
+<p>Рассмотрим функцию, которая высчитывает факториал от некоторого положительного целого. Вкратце, факториал числа - это число, полученное путём умножения всех предшествующих ему чисел. Так, факториал от 4 (или 4!) - 1<em>2</em>3*4 = 24. Распечатка 1 показывает один из способов написать эту функцию на Java:</p>
+<p><em>Распечатка 1. Решение задачи про факториал с использованием цикла на Java</em>
+[cc lang=&quot;java&quot;]
+public int factorial(int number) {
+    if (number &lt;= 1) return 1;
+    int result = 1;
+    for (int i=1; i &lt;= number; i++) {
+        result *= i;
+    }
+    return result;
+}
+[/cc]</p>
+<p>Пока это совершенно разумный код, он действительно пользуется тем фактом, что вы можете переопределить значения переменных в Java-программе. Без этой роскоши вы можете только решать задачу определением функций, как в Распечатке 2.</p>
+<p><em>Распечатка 2. Решение задачи про факториал с использованием рекурсии на Java</em>
+[cc lang=&quot;java&quot;]
+public int factorial(int number) {
+    if (number &lt;= 1) return 1;
+    return number * factorial(number-1);
+}
+[/cc]</p>
+<p>Результаты вызова этих двух реализаций вычисления факториала одинаковы. Вызов функции <em>factorial()</em> в теле метода показывает, что вторая реализации использует рекурсию. Этот метод может быть визуально представлен как лестница. Программа многократно спускается вниз, вызывая саму себя, собирая статическую информацию для каждого вызова пока не упрется в условие выхода из рекурсии. Достигнув конца, она идёт обратно, возвращая различные состояния уже сделанных вызовов, объединяя информацию, собранную на пути вниз, для получения финального результата. Пример про факториал показан на рисунке.
+<img src="http://www.ibm.com/developerworks/xml/library/x-xslrecur/steps.gif" alt="Представление рекурсии в виде лестницы" /></p>
+<p>В общем случае, рецепт создания рекурсивной функции включает в себя три ингредиента: условие выхода, код операции и рекурсивный вызов самого себя. В случае факториала, я вычисляю его для n путём вычисления факториала для n-1, n-2, n-3 и т.д. пока функция не достигнет условия выхода из серии - значения 1.</p>
+<p>Так, если сейчас идея рекурсии ещё кажется немного смущающей, вы могли бы прервать чтение этой статьи и либо проследовать по некоторым ссылкам на эту тему в разделе <a href="http://www.ibm.com/developerworks/xml/library/x-xslrecur/#resources">Ресурсы</a>, либо попробовать написать несколько функций самостоятельно (например, напишите функцию для расчёта n-го числа из ряда Фибоначчи).</p>
+<h2><strong>Общие использования рекурсии в XSL</strong></h2>
+
+<p>Два общих сценария использования рекурсии в XSL такие:</p>
+<p><ul>
+  <li>Когда у вас есть набор повторяющихся значений в исходном XML, и вы хотите, чтобы результат преобразования отражал что-то, касающееся всех этих значений. Например, если у вас есть каталог товаров в XML, и вы хотите представить эти товары в соответствии с общей ценой, вы захотите найти совокупную цену, используя рекурсивный шаблон.</li>
+  <li>Когда исходный XML содержит число <em>x</em> в теге, например &lt;countTo number=&quot;5&quot;/&gt;, и вы хотите представить некоторую информацию <em>x</em> раз в результирующей выдаче. Факториал - типичный пример такого случая, но я рассмотрю более сложный пример немного позже.</li>
+</ul>
+Я покажу рекурсивное решение, написанное на XSL для обоих сценариев, но сначала давайте взглянем на пример про факториал, решенный на XSL:</p>
+<p><em>Распечатка 3. Решение задачи про факториал с использованием рекурсии на XSL</em>
+[cc lang=&quot;xml&quot;]</p>
+<p><xsl:template name="factorial">
+  <xsl:param name="number" select="1"/>
+  <xsl:choose>
+    <xsl:when test="$number <= 1">
+      <xsl:value-of select="1"/>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:variable name="recursive_result">
+        <xsl:call-template name="factorial">
+          <xsl:with-param name="number" select="$number - 1"/>
+        </xsl:call-template>
+      </xsl:variable>
+      <xsl:value-of select="$number * $recursive_result"/>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
+[/cc]</p>
+<p>Этот шаблон содержит все &quot;игредиенты&quot; из рецепта для Java-рекурсии. Здесь есть условие выхода (проверка на равенство единице или нет): если условие выхода не выполняется, шаблон делает рекурсивный вызов самого себя (хранимый в переменной <em>recursive_result</em>). Наконец, для получения конечного результата совершается операция умножения между исходным числом и рекурсивно полученным значением. Вы также могли заметить, что XSL частно требует намного больше кода, чем решение той же задачи в других языках. Это всего лишь часть неоднозначностей в языке преобразования, который согласовывается с XML.</p>
+<h3><strong>Рекурсия, вариант 1: Суммирование сквозь множество элементов</strong></h3>
+
+<p>Теперь вы можете применить такой же метод, как и в примере с факториалом из <em>Распечатки 3</em>, чтобы найти общую стоимость товаров в XML-каталоге. Фактически, решение аналогично решению задачи с факториалом, за исключением того, что вы будете использовать сложение вместо умножения и набор узлов как исходную информацию вместо числа.</p>
+<p>Предположим, у вас есть каталог товаров, который выглядит походим на XML в <em>Распечатке 4</em> (кстати, вы можете скачать весь XML и XSL, и весь другой код из этой статьи по ссылке в <a href="http://www.ibm.com/developerworks/xml/library/x-xslrecur/#resources">Ресурсах</a>).</p>
+<p><em>Распечатка 4. Пример XML с продуктами</em>
+[cc lang=&quot;xml&quot;]</p>
+<p><Products>
+  <Product>
+    <Name>Gadget</Name>
+    <Price>$10.00</Price>
+  </Product>
+  <Product>
+    <Name>Gizmo</Name>
+    <Price>$7.50</Price>
+  </Product>
+  ...
+ </Products>
+[/cc]</p>
+<p>Цель в том, чтобы добавить первую цену из этого списка товаров к сумме всех других цен, пока вы не получите суммарный результат. Вы можете осуществить это при помощи XSL, показанного в <em>Распечатке 5</em>.</p>
+<p><em>Распечатка 5. Проход по узлам с использованием обычной XSL-рекурсии</em>
+[cc lang=&quot;xml&quot;]</p>
+<p><xsl:template name="priceSum">
+  <xsl:param name="productList"/>
+    <xsl:choose>
+      <xsl:when test="$productList">
+        <xsl:variable name="recursive_result">
+          <xsl:call-template name="priceSum">
+            <xsl:with-param name="productList"
+              select="$productList[position() > 1]"/>
+          </xsl:call-template>
+        </xsl:variable>
+        &lt;xsl:value-of
+          select=&quot;number(substring-after($productList[1]/Price,&#39;$&#39;))</p>
+<pre class="highlight"><code class="hljs xml">              + $recursive_result"/&gt;
+  <span class="hljs-tag">&lt;/<span class="hljs-title">xsl:when</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">xsl:otherwise</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">xsl:value-of</span> <span class="hljs-attribute">select</span>=<span class="hljs-value">"0"</span>/&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">xsl:otherwise</span>&gt;</span>
+</code></pre><p>  </xsl:choose>
+</xsl:template>
+[/cc]
+В этом случае вы вызываете функцию на постепенно уменьшающемся списке товаров, каждый раз добавляя первый элемент в список к рекурсивному вызову на остальных элементах списка. Когда список получается пустым, условие выхода достигнуто и вы добавляете ноль к результату, что не изменит сумму. Этот метод работы на всё меньшем и меньшем наборе узлов может быть использован во многих случаях.</p>
+<h3><strong>Рекурсия, вариант 2: Итерация на числе</strong></h3>
+
+<p>Вторая задача, с которой сталкиваются XSL-программисты, возникает, когда число содержится в некоторых случаях в исходном XML, и программисту нужно решить задачу это число раз. Например, XML может выключать информацию о сетке с некоторыми числами строк и столбцов, и преобразование необходимое для обеспечения визуального расположения сетки в HTML или каком-либо другом формате.</p>
+<p>Решение, как правило используемое разработчиками, незнакомыми с рекурсивными методами - это написать программу, которая разбирает XML и дополняет элементами для каждого ряда или столбца. Однажды написанный элемент &lt;xsl:for-each&gt; может решить задачу без рекурсивных шаблонов. Несмотря на то, что это решение обеспечивает подходящую выдачу, у него есть большой недостаток. Этот метод на самом деле удваивает объём работы для обеспечения финального результата преобразования. Этот недостаток чрезвычайно заметен в клиент-серверной модели, когда сервер посылает XML и XSL для преобразования на клиентской стороне. В таком случае всё продуктивности, обычно реализованные на сервере, теряются за счёт увеличения XML.</p>
+<p>Лучшее решение - использовать рекурсивные шаблоны, чтобы выполнять работы полностью в рамках преобразования. Рассмотрим получение таблицы умножения из XML-элемента в виде HTML. Входная информация будет содержать следующую строку:
+[cc lang=&quot;xml&quot;]</p>
+<p><MultiplicationTable Rows="3" Columns="4"/>
+[/cc]
+Цель состоит в том, чтобы преобразовать это в HTML, представляющий таблицу, похожую на:</p>
+<table border="1" cellpadding="5" cellspacing="0">
+<tr>
+<td></td>
+<td><strong>1</strong></td>
+<td><strong>2</strong></td>
+<td><strong>3</strong></td>
+<td><strong>4</strong></td>
+</tr>
+<tr>
+<td><strong>1</strong></td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>2</strong></td>
+<td>2</td>
+<td>4</td>
+<td>6</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td>3</td>
+<td>6</td>
+<td>9</td>
+<td>12</td>
+</tr>
+</table>
+
+<p>Этот пример кое в чём более сложный, чем первые два. В этом случае вы не просто возвращаете функциональный результат, представляющий решение проблемы, но вы всего лишь выдадите HTML как шаг рекурсивного процесса. Также вам необходимо соединить вместе два рекурсивных шаблона - один для рядов, другой для столбцов.</p>
+<p><em>Распечатка 6. Повторение по числу с использованием основной XSL-рекурсии</em>
+[cc lang=&quot;xml&quot;]</p>
+<p><xsl:template name="drawRow">
+  <xsl:param name="currentRow"/>
+  <xsl:param name="totalRows"/>
+  <xsl:param name="totalCols"/>
+  <xsl:if test="$currentRow <= $totalRows">
+    <tr>
+      <xsl:call-template name="drawCell">
+        <xsl:with-param name="currentRow" select="$currentRow"/>
+        <xsl:with-param name="currentCol" select="0"/>
+        <xsl:with-param name="totalCols" select="$totalCols"/>
+      </xsl:call-template>
+    </tr>
+    <xsl:call-template name="drawRow">
+      <xsl:with-param name="currentRow" select="$currentRow  + 1"/>
+      <xsl:with-param name="totalRows" select="$totalRows"/>
+      <xsl:with-param name="totalCols" select="$totalCols"/>
+    </xsl:call-template>
+  </xsl:if>
+</xsl:template></p>
+<p><xsl:template name="drawCell">
+  <xsl:param name="currentRow"/>
+  <xsl:param name="currentCol"/>
+  <xsl:param name="totalCols"/>
+  <xsl:if test="$currentCol <= $totalCols">
+    <xsl:variable name="bgColor">...</xsl:variable>
+    <xsl:variable name="value">...</xsl:variable>
+    <td bgcolor="{$bgColor}" align="center" valign="top">
+      <xsl:value-of select="$value"/>
+    </td>
+    <xsl:call-template name="drawCell">
+      <xsl:with-param name="currentRow" select="$currentRow"/>
+      <xsl:with-param name="currentCol" select="$currentCol + 1"/>
+      <xsl:with-param name="totalCols" select="$totalCols"/>
+    </xsl:call-template>
+  </xsl:if>
+</xsl:template>
+[/cc]</p>
+<p>В этом случае я использую два отдельный рекурсивных шаблона. Вначале рекурсивно рисую ряды пока не достигну условия выхода. Этот шаблон использует второй рекурсивный шаблон, чтобы нарисовать ячейки для каждого столбца в ряду. Этот общий метод применим для многоуровневого представления данных.</p>
+<h2><strong>Оптимизация паттернов рекурсии в XSL</strong></h2>
+
+<p>К сожалению, использование рекурсии во многих XSL-процессорах имеет один значительный недостаток при работе с большими объемами данных. Также слишком легко достигнуть переполнения стека (Stack Overflow) или нехватки памяти (Out of Memory) с функциями, которые достигают глубины порядка 10000. Если вы пытаетесь суммировать цены в каталоге с более чем 10000 товарами, вы можете столкнуться с проблемами.</p>
+<p>К счастью, есть пути по оптимизации рекурсивных функций, чтобы уменьшить или даже исключить глубину рекурсии, вытекающую из заданного шаблона. Оставшаяся часть этой статьи представляет четыре способа оптимизировать то, как вы пишете ваши рекурсивные решения на XSL.</p>
+<h3><strong>Оптимизация рекурсии 1. Разделяй и властвуй</strong></h3>
+
+<p>Вспомните первый пример, в котором мы пытались найти общую цену, суммировав все цены для нескольких товаров в XML-каталоге. Первоначальный подход - это добавить цену первого товара к сумме всех остальных, и делать это рекурсивно, пока вы не переберёте весь лист. При использовании этого подхода глубина рекурсии равна числу товаров в списке. Сейчас цель состоит в том, чтобы изменить метод так, чтобы вы получили тот же результат без вхождения в рекурсию так глубоко.</p>
+<p>Другой подход к этой проблеме - это разделить список на множество меньших частей и делать так рекурсивно, пока вы не разделите каждую часть на отдельные продукты. Самый простой путь представить это - разделение списка напополам, делая рекурсивный вызов на каждой половине и тогда сделать отдельные рекурсивные вызовы на двух получившихся списках. Это позволит завершить всю работу на одной половине,  до того как какая-то работа будет сделана на другой половине. Процесс обработки будет древовидный, а не линейный (похожий на лестницу) из первого решения. <em>Рисунок 2</em> показывает это рекурсивное дерево.
+<img src="http://www.ibm.com/developerworks/xml/library/x-xslrecur/tree.gif" alt="" /></p>
+<p>Используя подход &quot;разделяй и властвуй&quot;, вы не ощутите никакой экономии, в цифрах, по числу операций сложения, которые должны быть выполнены. Экономия будет заключаться в том, что операции сложения не ожидают того, чтобы все числа были получены и поставлены в очередь в стек рекурсии для выполнения операции. XSL-код в <em>Распечатке 7</em> показывает такой способ.</p>
+<p><em>Распечатка 7. Прохождение по узлам с использованием метода &quot;разделяй и властвуй&quot;</em>
+[cc lang=&quot;xml&quot;]</p>
+<p><xsl:template name="priceSumDivideAndConquer">
+  <xsl:param name="productList"/>
+    <xsl:choose>
+      <xsl:when test="count($productList) = 1">
+        <xsl:value-of
+          select="number(substring-after($productList[1]/Price,'$'))"/>
+      </xsl:when>
+      <xsl:when test="$productList">
+        <xsl:variable name="halfIndex"
+          select="floor(count($productList) div 2)"/>
+        <xsl:variable name="recursive_result1">
+          <xsl:call-template name="priceSumDivideAndConquer">
+            <xsl:with-param name="productList"
+              select="$productList[position() &lt;= $halfIndex]"/>
+          </xsl:call-template>
+        </xsl:variable>
+        <xsl:variable name="recursive_result2">
+          <xsl:call-template name="priceSumDivideAndConquer">
+            <xsl:with-param name="productList"
+              select="$productList[position() &gt; $halfIndex]"/>
+          </xsl:call-template>
+        </xsl:variable>
+      <xsl:value-of select="$recursive_result1 + $recursive_result2"/>
+    </xsl:when>
+    <xsl:otherwise><xsl:value-of select="0"/></xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
+[/cc]
+Операция сложения происходит каждый раз, когда разделённый список достигает длины 1 (это является условием выхода), и производится до того, как какая-нибудь обработка произойдёт со второй частью листа. При использовании этой техники глубина рекурсии никогда не превысит log<sub>2</sub> от количества элементов в списке, что, конечно, экспоненциально увеличивает возможное число товаров в списке для этого подсчёта.</p>
+<h3><strong>Оптимизация рекурсии 2. Сегментация</strong></h3>
+
+<p>Несмотря на невероятную экономию глубины рекурсии, обеспеченные методом &quot;Разделяй и властвуй&quot;, у него действительно есть недостатки. Для списков длиной не выражается числом степени двойки, этот способ излишне накладный на концах рекурсионного дерева.</p>
+<p>Другой подход, который похоже уменьшает глубину рекурсии, работающий на итерациях через сегменты узлов предопределённой длины, предпочтительнее, чем деление узлов надвое каждый раз. Этот подход построен на базовой рекурсивной методике, но представлен внешним шаблоном, который действует как менеджер сегментации.</p>
+<p>Роль менеджера сегментации состоит в том, чтобы разбить большую задачу на маленькие, которые могут быть проработаны без появления утечек памяти. Менеджер хранит результаты этих маленьких заданий и в тот момент, когда они все завершены, выполняет необходимую операцию над этими результатами.</p>
+<p>Вы можете видеть пример техники Сегментации в шаблоне <em>Распечатки 8</em>, который берёт список узлов и длину сегмента и использует оригинальный шаблон для цен на этих маленьких частях.</p>
+<p><em>Распечатка 8. Обход узлов с использованием техники сегментации</em>
+[cc lang=&quot;xml&quot;]</p>
+<p><xsl:template name="priceSumSegmented">
+  <xsl:param name="productList"/>
+  <xsl:param name="segmentLength" select="5"/>
+  <xsl:choose>
+    <xsl:when test="count($productList) > 0">
+      <xsl:variable name="recursive_result1">
+        <xsl:call-template name="priceSum">
+          <xsl:with-param name="productList"
+            select="$productList[position() <= $segmentLength]"/>
+        </xsl:call-template>
+      </xsl:variable>
+      <xsl:variable name="recursive_result2">
+        <xsl:call-template name="priceSumSegmented">
+          <xsl:with-param name="productList"
+            select="$productList[position() > $segmentLength]"/>
+        </xsl:call-template>
+      </xsl:variable>
+      <xsl:value-of select="$recursive_result1 + $recursive_result2"/>
+    </xsl:when>
+    <xsl:otherwise><xsl:value-of select="0"/></xsl:otherwise>
+  </xsl:choose> 
+</xsl:template>
+[/cc]
+Использование подхода Сегментации лучше, чем подхода &quot;Разделяй и властвуй&quot; уменьшает накладные расходы в большинстве случаев, но не предлагает особенной выгоды по глубине рекурсии. Какой же следует использовать? Ответ - как вы можете увидеть по следующей оптимизации - оба.</p>
+<h3><strong>Оптимизация рекурсии 3. Сочетание Сегментации и &quot;Разделяй и властвуй&quot;</strong></h3>
+
+<p>Вы можете объединить техники &quot;Разделяй и властвуй&quot; и Сегоментации, чтобы</p>
+<ol>
+  <li>увеличить экномию за счёт снижения глубины рекурсии (включая накладную обработку, связанную 
+с каждый добавлением уровня используемой рекурсии)</li>
+  <li>избежать накладных расходов на уровне листочков рекурсионного дерева</li>
+</ol>
+
+<p>В этом способе пороговый уровень передаётся в рекурсивный шаблон, через список узлов (или другие данные, которыми опрерируют). Здесь &quot;Разделяй и властвуй&quot; изменён, чтобы работать как менеджер сегментации. Если размер переданного списка больше, чем пороговое значение, список делится надвое и шаблон рекурсивно вызывается для обеих половин. Другими словами, вы используете основной рекурсивный шаблон, чтобы вычислять результаты, как и в Сегментации.
+<em>Распечатка 9</em> показывает этот способ на следующих XSL-шаблонах.</p>
+<p><em>Распечатка 9. Обход узлов с использованием составной техники &quot;Разделяй и властвуй&quot; и Сегментации</em>
+[cc lang=&quot;xml&quot;]</p>
+<p><xsl:template name="priceSumCombination">
+  <xsl:param name="productList"/>
+  <xsl:param name="threshold" select="5"/>
+  <xsl:choose>
+    <xsl:when test="count($productList) > $threshold">
+      <xsl:variable name="halfIndex"
+        select="floor(count($productList) div 2)"/>
+      <xsl:variable name="recursive_result1">
+        <xsl:call-template name="priceSumCombination">
+          <xsl:with-param name="productList"
+            select="$productList[position() <= $halfIndex]"/>
+        </xsl:call-template>
+      </xsl:variable>
+      <xsl:variable name="recursive_result2">
+        <xsl:call-template name="priceSumCombination">
+          <xsl:with-param name="productList"
+            select="$productList[position() > $halfIndex]"/>
+        </xsl:call-template>
+      </xsl:variable>
+      <xsl:value-of select="$recursive_result1 + $recursive_result2"/>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:call-template name="priceSum">
+        <xsl:with-param name="productList" select="$productList"/>
+      </xsl:call-template>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
+[/cc]</p>
+<h3><strong>Оптимизация рекурсии 4. Tail Recursion</strong></h3>
+
+<p>У вас уже есть какой-то опыт по отношению к рекурсии и вы, возможно, удивлены, почему метод Tail Recursion не первый в способах оптимизации, с тех пор как этот способ может устранить глубокую рекурсию полностью без каких-либо накладных расходов. Несмотря на преимущества, которые этот способ предлагает, он требует, чтобы XSLT-процессор, производя эту трансформацию, распознавал присутствие этой техники в XSL-коде и изменял бы своё поведение для обеспечения этой техники. К сожалению, большинство XSL-процессоров не предлагают такую возможность.</p>
+<p>Хорошая новость состоит в том, что непомерное одобрение XSL в бизнесе и научном мире означает, что это ограничение просуществует недолго. По этой причине для разработчиков важно понимать, как происходит отрубание хвоста, как оно может исключить проблемы с памятью без задерживания представления в любом достойном виде.</p>
+<p>Основная идея Tail Recursion - это избавление от хранения какой-либо статической информации в рекурсивных шагах. Вся информация, которая нужна, на каждом шаге передаётся как параметры функции вместо того, чтобы храниться на более высоком уровне в стеке рекурсии. Это позволяет XSLT-процессору работать с рекурсивной функцией как с циклом в процедурном языке.</p>
+<p>Взгляните на <em>Распечатку 1</em>0 примера с ценами с Tail Recursion.</p>
+<p>Распечатка 10. Проход по узлам с использованием Tail Recursion
+[cc lang=&quot;xml&quot;]</p>
+<p><xsl:template name="priceSumTail">
+  <xsl:param name="productList"/>
+  <xsl:param name="result" select="0"/>
+  <xsl:choose>
+    <xsl:when test="$productList">
+      <xsl:call-template name="priceSumTail">
+        <xsl:with-param name="productList"
+          select="$productList[position() > 1]"/>
+        <xsl:with-param name="result"
+          select="$result + 
+                  number(substring-after($productList[1]/Price,'$'))"/>
+      </xsl:call-template>
+    </xsl:when>
+    <xsl:otherwise><xsl:value-of select="$result"/></xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
+[/cc]
+Прибавление дополнительного значения переменной создаёт всю разницу. Вместо накомления чисел для сложения на разных рекурсивных шагах, сложение производится на каждом этапе и результат передаётся дальше как параметр для следующего шага рекурсии. Токовый XSLT-процессор просто перезаписывает участок памяти, содержащий значение переменной, при каждом вызове так же, как эта переменная перезаписывалась бы в случае Java или C кода. Этот способ позволяет языку пользоваться преимуществами и декларативных, и императивных языков без изменения сути XSLT как языка программирования.</p>
+<p><h2><strong>Заключение</strong></h2>
+Как только вы поняли рекурсию, декларативный стиль программирования на XSLT будет не препятствием, а эффективным путем расширения возможностей преобразования XML. Остаётся единственный вопрос - какой тип рекурсии лучший для каждой отдельно взятой ситуации.</p>
+<p>Вообще, задачи, работающие для малых объёмов данных, не требуют применения какой-либо из этих оптимизационных техник. Хотя, если малость объёма данных не гарантирована, выбор ограничен технологией, используемой в преобразовании. Если ваш XSLT-процессор распознаёт Tail Recursion, то лучше всего использовать этот способ. Если вы не можете убедиться, что преобразовательня технология умеет распознавать Tail Recursion, то наиболее предпочтительна комбинированная техника. Пороговое значение обычно лежит в диапазоне от 5 до 30 в зависимости от задачи.</p>
+<p>Поначалу рекурсия может быть трудной для понимания идеей, но её полезность и элегантность становятся яснее по мере использования.</p>
+]]></description>
+            <link>http://varya.me//ru/issues/xslt-recursion</link>
+            <guid isPermaLink="true">http://varya.me//ru/issues/xslt-recursion</guid>
+            <pubDate>Mon, 31 Aug 2009 19:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10 ошибок XSLT-программистов]]></title>
+            <description><![CDATA[<p>Перевод <a href="http://saxonica.blogharbor.com/blog/_archives/2010/6/11/4550606.html">статьи &quot;The ten most common XSLT programming 
+mistakes&quot;</a>,
+ссылка на которую недавно опубликована в <a href="http://clubs.ya.ru/xslt/">клубе XSLT на
+Я.ру</a>.</p>
+<p>Недавно я сказал в ответ пользователю, что он попадает в наиболее
+распространённые ловушки для программистов на XSLT. Вместо того, чтобы быть 
+раздраженным, что я почти ожидал, он поблагодарил меня и спросил, не мог бы я
+рассказать ему о двугих ловушках.<excerpt/> Некоторые из нас помогают людям избежать этих
+ловушек в течение многих лет, но, несмотря на это, я не припомню, чтобы видел
+список таких ловушек. Так что я решил потратить полчаса, чтобы составить такой
+список.</p>
+<ul>
+<li>Обрабатывать элементы в дефолтном пространстве имён (namespace). Если
+исходный XML-документ содержит декларацию дефолтного пространства имён
+<code>xmlns=&quot;something&quot;</code>, то каждый раз, когда вы ссылаетесь на имя элемента в
+XPath-выражении или значении атрибута match, вы должны ясно давать понять, что
+вы имеете в виду элементы из этого пространства имён. В XSLT 1.0 вы должны
+связать префикс с этим пространством имён (например <code>xmlns:p=&quot;something&quot;</code> в
+элементе <code>xsl:stylesheet</code>) и затем везде использовать этот префикс, напимер,
+<code>match=&quot;p:chapter/p:section&quot;</code>. В XSLT 2.0 есть альтернатива - задекларировать в
+элементе xslt:stylesheet <code>default-xpath-namespace=&quot;something&quot;</code>.</li>
+<li><p>Использование относительных путей. xsl:apply и xsl:for-each принимают текущий
+узел; в рамках &quot;цикла&quot; пути должны быть написаны относительно текущего узла.
+Например,</p>
+<p><xsl:for-each select="chapter"><xsl:value-of select="title"/></xsl:for-each></p>
+</li>
+</ul>
+<p>Распространённая ошибка - использование абсолютных путей внутри цикла (например <em>select=&quot;//title&quot;</em>) или повторение имени контекстного узла в относительном пути (<em>select=&quot;chapter/title&quot;</em>).</li>
+  <li>Переменные содержат значения, а не фрагменты синтаксических выражений. Некоторые люди думают, что ссылка на переменную $x подобна макросу, распространяющемуся и на синтаксис xPath-выражений путйм буквального замещения - как в языках типа shell. Это не так: вы можете использовать переменные только там, где вы можете использовать значение. Например, если $N содержит строку &#39;para&#39;, то выражение <em>chapter/$N</em> не означает того же, что и <em>chapter/para</em>. Вместо этого вам нужно <em>chapter/*[name()=$N]</em>. Если переменная содержит что-то более сложное, чем просто имя (например, запись xPath-пути), вам понадобится расширение, подобное saxon:evaluate(), чтобы вычислить это.</li>
+  <li>Шаблонные правила <em>xsl:apply-templates</em> - это не расширенные возможности языка для подвинутых пользователей. Это самые основные, фундаментальные конструкции в XSLT. Не откладывайте тот день, когда вы начнёте их использовать. Если вы не используете их, вы делаете свою жизнь излишне сложной.</li>
+  <li>XSLT принимает дерево на вход и отдаёт дерево на выходе. Непонимание этого является причиной многих разочарований, которые возникают у новичков в XSLT. XSLT не может обработать вещи, которые не представлены в дереве, предоставленном XML-парсером (области CDATA, ссылки на сущности (entity), XML-декларация), и не может сгенерировать эти вещи на выходе. Если вы думаете, что вам это необходимо, спросите &quot;почему?&quot;. Возможно что-то не так с вашими требованиями или замыслом.</li>
+  <li>Пространства имён (namespace) - это трудно. Нет лёгкого способа опровергнуть это. Возможно, это требует отдельной статьи. Разгадка в понимании модели пространств имён. Пространства имён проявляются в двух ипостасях:</p>
+<ol>  <li>Каждый элемент или атрибут имеет имя, состоящее из префикса, собственно имени и URI.</li>
+  <li>Элементы обладают узлами пространств имён, представляющими все префикс-uri соответствия в границах этого элемента.</li>
+</ol>
+Когда вы поймёте это, вы сможете понять особенности различных правил и их влияние на пространства имён в результирующем дереве. Чаще всего, всё, что вам нужно делать, это гарантировать, что создаваемые вами элементы находятся в верном пространстве имён, всё остальное произойдёт само собой.
+</li>
+  <li>Не используйте <em>disable-output-escaping</em>. Некоторые люди используют эту магическую приправу, но не понимают, что она делает. Они надеются, что это может заставить код работать лучше. Этот атрибут только для профессионалов, и профессионалы используют это только как последнее средство спасения. В 95% случаях, если вы встретили в преобразовании <em>disable-output-escaping</em>, это говорит о том, что автор был новичком, не понимающим, что он делает.</li>
+  <li>Инструкция <em><xsl:copy-of></em> создаёт точную копию исходного дерева, пространств имён и всего остального. (Есть исключение - в XSLT 2.0 вы можете сказать <em>copy-namespaces=&quot;no&quot;</em>). Если вы хотите скопировать дерево с изменениями, вы не можете использовать <em>xsl:copy-of</em>. Вместо этого используйте шаблон идентичного преобразования: шаблон, который использует создание поверхностной копии элемента и применяет <em>applies-templates</em> ко всем его потомкам, дополненный шаблонами, переопределяющими это поведение для отдельных элементов.</li>
+  <li>Не используйте
+[cc lang=&quot;xml&quot;]
+<xsl:variable name="x"><xsl:value-of select="y"/></xsl:variable>
+[/cc]
+Вместо этого используйте
+[cc lang=&quot;xml&quot;]
+<xsl:variable name="x" select="y"/>
+[/cc]
+Последняя запись короче, более действенна при исполнении, и в любом случае она корректна.</li>
+  <li>Когда вам нужно найти информацию, используйте ключи. Также как и в случае с шаблонами, не откладывайте изучение использования ключей и не выбрасыйте их из головы как &quot;продвинутую&quot; возможность. Это важнейший инструмент разработки. Поиск информации без использования ключей сродни забиванию гвоздей отвёрткой.</li>
+</ol>]]></description>
+            <link>http://varya.me//ru/issues/ten-xslt-mistakes</link>
+            <guid isPermaLink="true">http://varya.me//ru/issues/ten-xslt-mistakes</guid>
+            <pubDate>Sat, 11 Sep 2010 19:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
